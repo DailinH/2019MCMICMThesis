@@ -2,16 +2,21 @@
 \contentsline {subsection}{\numberline {1.1}Problem Background}{2}
 \contentsline {subsection}{\numberline {1.2}Our Work}{2}
 \contentsline {section}{\numberline {2}Assumptions}{2}
-\contentsline {section}{\numberline {3}Notations}{2}
-\contentsline {section}{\numberline {4}Statement of our Model}{2}
-\contentsline {section}{\numberline {5}Implementation}{2}
-\contentsline {section}{\numberline {6}Model Analysis}{3}
-\contentsline {subsection}{\numberline {6.1}Sensitivity Analysis}{3}
-\contentsline {subsection}{\numberline {6.2}Strengths and Weaknesses}{3}
-\contentsline {subsubsection}{\numberline {6.2.1}Strengths}{3}
-\contentsline {subsubsection}{\numberline {6.2.2}Weaknesses}{3}
-\contentsline {section}{\numberline {7}Conclusion}{3}
-\contentsline {section}{\numberline {8}Letter}{4}
-\contentsline {section}{Appendices}{6}
-\contentsline {section}{\numberline {A}Mathematical Backgrounds}{6}
-\contentsline {section}{\numberline {B}EXAMPLES(TO BE DELETED!)}{7}
+\contentsline {section}{\numberline {3}Notations}{3}
+\contentsline {section}{\numberline {4}Model Overview}{3}
+\contentsline {subsection}{\numberline {4.1}the Continuum Drug Spread Model}{3}
+\contentsline {subsection}{\numberline {4.2}Analytical Solution to the CDS Model}{4}
+\contentsline {subsection}{\numberline {4.3}Identify the Origin of Specific Opioid Use}{4}
+\contentsline {subsection}{\numberline {4.4}Drug Identification Threshold}{5}
+\contentsline {subsection}{\numberline {4.5}Model Prediction via the Grey Method}{5}
+\contentsline {section}{\numberline {5}Analysis on Socio-Economic Factors}{6}
+\contentsline {subsection}{\numberline {5.1}Data Cleansing}{6}
+\contentsline {subsection}{\numberline {5.2}Extract Influential Factors via Prior Knowledge and Linear Regression}{6}
+\contentsline {subsubsection}{\numberline {5.2.1}Prior Knowledge}{7}
+\contentsline {subsubsection}{\numberline {5.2.2}Linear Regression}{7}
+\contentsline {section}{\numberline {6}Strategy for Countering the Opioid Crisis}{7}
+\contentsline {section}{\numberline {7}Conclusion}{7}
+\contentsline {section}{\numberline {8}Memorandum}{8}
+\contentsline {section}{Appendices}{10}
+\contentsline {section}{\numberline {A}Mathematical Backgrounds}{10}
+\contentsline {section}{\numberline {B}EXAMPLES(TO BE DELETED!)}{11}

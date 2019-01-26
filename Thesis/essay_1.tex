@@ -32,7 +32,10 @@
 \usepackage{subfigure}
 \usepackage{palatino}
 \usepackage[table,xcdraw]{xcolor}
-\linespread{1.1} % Line spacing
+\usepackage{enumerate}
+\usepackage{verbatim}
+
+\linespread{1.0} % Line spacing
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 \pagestyle{fancy}
 \title{MCM/ICM Template}
@@ -51,9 +54,6 @@
 \subsection{Problem Background} % Sub-section
 \input{Text/ProblemBackground}
 
-%----------------------------------
-
-
 \subsection{Our Work} % Sub-section
 \input{Text/OurWork}
 
@@ -63,25 +63,21 @@
 \section{Notations} % Major section
 \input{Text/Notations}
 
+\section{Model Overview} % Sub-section
+\input{Text/PART1}
 
-\section{Statement of our Model} % Sub-section
-\input{Text/ModelStatement}
+\section{Analysis on Socio-Economic Factors} \input{Text/PART2}
 
-\section{Implementation}	 % Sub-sub-section
-\input{Text/Implementation}
-%------------------------------------------------
+\section{Strategy for Countering the Opioid Crisis}
+\input{Text/PART3}
 
-\section{Model Analysis} % Sub-sub-section
-\subsection{Sensitivity Analysis}
-\subsection{Strengths and Weaknesses}
-\subsubsection{Strengths}
-\subsubsection{Weaknesses}
+
 
 \section{Conclusion} % Major section
 
 \newpage
-\section{Letter}
-\input{Text/Letter.tex}
+\section{Memorandum}
+\input{Text/Memo.tex}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
@@ -90,11 +86,41 @@
 \begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
 
 \bibitem{1}
-Figueredo, A.~J. and Wolf, P. S.~A. (2009).
-\newblock Assortative pairing and life history strategy - a cross-cultural
-  study.
-\newblock {\em Human Nature}, 20:317--330.
- 
+Rummans, Teresa A., M. Caroline Burton, and Nancy L. Dawson. "How good intentions contributed to bad outcomes: the opioid crisis." \textit{Mayo Clinic Proceedings.} Vol. 93. No. 3. Elsevier, 2018.
+
+\bibitem{2}
+Overdose deaths involving opioids by type of opioid, United States, 2000-2015. From  \textit{CDC/NCHS National Vital Statistics System, Mortality}
+
+\bibitem{3}
+Bear J. Modeling Phenomena of Flow and Transport in Porous Media[M]. Springer, 2018.
+
+\bibitem{4}
+https://en.wikipedia.org/wiki/Lasso\_(statistics)
+
+\bibitem{5}
+Friedman, Jerome, Trevor Hastie, and Robert Tibshirani. The elements of statistical learning. Vol. 1. No. 10. New York, NY, USA:: Springer series in statistics, 2001.
+
+\bibitem{6}
+Friedman, Jerome, Trevor Hastie, and Rob Tibshirani. "Regularization paths for generalized linear models via coordinate descent." Journal of statistical software 33.1 (2010): 1.
+
+\bibitem{7}
+Kim, Seung-Jean, et al. "An Interior-Point Method for Large-Scale $\ell_1 $-Regularized Least Squares." IEEE journal of selected topics in signal processing 1.4 (2007): 606-617.
+
+\bibitem{8}
+Tang, D. H., E. O. Frind, and Edward Allan Sudicky. "Contaminant transport in fractured porous media: Analytical solution for a single fracture." Water resources research 17.3 (1981): 555-564.
+
+\bibitem{9}
+Burns, Lucy. "World Drug Report 2018 By United Nations Office on Drugs and Crime New York: United Nations, 2018.
+
+\bibitem{10}
+https://americanaddictioncenters.org/rehab-guide/addiction-statistics
+
+\bibitem{11}
+https://www.mayoclinic.org/diseases-conditions/prescription-drug-abuse/in-depth/how-opioid-addiction-occurs/art-20360372
+
+\bibitem{12}
+Hsu L C. Applying the grey prediction model to the global integrated circuit industry. Technological Forecasting and Social Change, 2003, 70(6): 563-574.
+
 \end{thebibliography}
 
 %----------------------------------------------------------------------------------------

@@ -1,0 +1,33 @@
+\subsection{Continuous Model}
+Our PUTS Model takes inspiration from the Porous Media Transformation Model.%这里明显还需要更多的说明
+We denote the total amount of drug used in $(x,y)$ at time $t$ with $U(x,y,t)$, and $F(x,y,t)$ as the amount of drugs in $(x,y)$ at time $t$. We assume that the amount of drugs used is proportional to the total amount of drugs, thus we have
+\begin{equation}
+U(x,y,t)=\lambda F(x,y,t)
+\end{equation}
+$S(x,y,t)$ represents the amount of drug stored in $(x,y)$ at time $t$. The NFLIS data contains drug identification counts in years 2010-2017 for narcotic analgesics and heroin in each of the counties from the five states stated in the \textit{problem background} section. We assume that the amount of identified drugs is in proportion to the total amount of drugs with a coefficient $R$:
+\begin{equation}
+S(x,y,t) = R\cdot F(x,y,t)
+\end{equation}
+
+Only one of the following two ways is possible for drugs to spread into a city: one is production in the city itself, the other is transportation from other cities. We denote the former as $P(x,y,t)$ and the latter as $T_{IN}(x,y,t)$. Any city may also transport drugs into other neighboring cities, which we denote as $T_{OUT}(x,y,t)$.
+
+Generalizing the above definitions, the relationship between $U(x,y,t), S(x,y,t), P(x,y,t),$ $T_{IN}(x,y,t)$ and $T_{OUT}(x,y,t)$ is
+
+\begin{equation}
+P+T_{IN}-T_{OUT}-U=\frac{\partial S}{\partial t} 
+\end{equation}
+
+The sum of $P+T_{IN}-T_{OUT}$ represents the rate at which the total amount of drug changes. We denote it with a proportional coefficient $D$
+\begin{equation}
+P+T_{IN}-T_{OUT} =D(\frac{\partial^2 F}{\partial x^2} + \frac{\partial^2 F}{\partial y^2})
+\end{equation}
+
+Replacing $P, U, T, S$ with $F$, we have
+
+\begin{equation}
+D(\frac{\partial^2 F}{\partial x^2} + \frac{\partial^2 F}{\partial y^2})- \lambda F =
+R \frac{\partial F}{\partial t}
+\end{equation}
+
+ 
+\subsection{Discrete Model}
