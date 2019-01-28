@@ -1,7 +1,7 @@
 \subsection{Initializing the Directed Graph}
-In the original Opoid Spread Model, we temporarily overlooked the relationship between the parameter $\lambda$ and position $(x,y)$ in the formula. In this section, we modify our model to reveal the relationship between $\lambda$ and local socio-economic factors. 
+In the original Opioid Spread Model, we temporarily overlooked the relationship between the parameter $\lambda$ and position $(x,y)$ in the formula. In this section, we modify our model to reveal the relationship between $\lambda$ and local socio-economic factors. 
 
-Using the same algorithm introduced for locating the Possible Origin of specific opioid(see 4.3), we discovered the following seven Possible Origins for general Opioids.
+Similar to the method introduced in 4.3-4.4, we define Main Source as counties ranked first-level Sources for more than 4 years among 2010-2017. We discovered the following seven Main Sources for General Opioids.
 
 \begin{table}[H]
 	\centering
@@ -16,10 +16,10 @@ Using the same algorithm introduced for locating the Possible Origin of specific
 		OH & Stark & 2539 & PA & Allegheny & 8268 \\ \hline
 	\end{tabular}
 	\centering
-	\caption{Possible Origins of Opioids in General}
+	\caption{Main Sources of Opioids in General}
 \end{table}
 
-Since detailed information concerning opoid amount is limited, and the properties of $\lambda$ differ regarding whether the county is a Source or a Consumer , we need to make the following assumptions to simplify our model in order to estimate the value of $\lambda$:
+Since detailed information concerning opioid amount is limited, and the properties of $\lambda$ differ regarding whether the county is a Source or a Consumer , we need to make the following assumptions to simplify our model in order to estimate the value of $\lambda$:
 
 \begin{enumerate}
 	\item For Consumers, $\lambda \approx 1$. This indicates that Consumers have a limited ability to transport drugs into neighboring counties, and can be omitted when conducting simplified calculations.
@@ -37,10 +37,10 @@ NOTE: In the following analysis, we abbreviate $\lambda_{Source_i}$ to $\lambda_
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\linewidth]{004}
-	\caption{$\lambda$ for the Possible Origins of Opioids in General over Time}
+	\caption{$\lambda$ for the Main Sources of Opioids in General over Time}
 \end{figure}
 
-We computed $\lambda$ for the seven Possible Origins during 2010-2016(see Figure 2). In order to eliminate the negative effect that a steep variation might cause, we calculate $\overline{\lambda_i}$, which is the average $\lambda$ for the $i_{th}$ Possible Origin through 2010-2016:
+We computed $\lambda$ for the seven Main Sources during 2010-2016(see Figure 2). In order to eliminate the negative effect that a steep variation might cause, we calculate $\overline{\lambda_i}$, which is the average $\lambda$ for the $i_{th}$ Main Source through 2010-2016:
 
 \begin{table}[H]
 	\centering
@@ -51,10 +51,10 @@ We computed $\lambda$ for the seven Possible Origins during 2010-2016(see Figure
 	$\overline{\lambda}$ & 0.6401 & 0.2499 & 0.2365 & 0.5492 & 0.2470 & 0.7231 & 0.6948 \\ \hline
 \end{tabular}
 \centering
-\caption{$\overline{\lambda_i}$ for the Seven Possible Origins}
+\caption{$\overline{\lambda_i}$ for the Seven Main Sources}
 \end{table}
 
-As we can see in the table above, the $\overline{\lambda_i}$ obviously vary among the Possible Origins. We have
+As we can see in the table above, the $\overline{\lambda_i}$ obviously vary among the Main Sources. We have
 \begin{equation}
 \hat{\lambda}=\frac{\sum_{t=1}^{7}\overline{\lambda_i}}{7}=0.4773
 \end{equation}
@@ -69,10 +69,10 @@ The ACS dataset provided more than five hundred possible factors, so feature ext
 
 A series of hypothesis have been developed to explain the socio-economic factors related to opioid use. Basing on statistics summarized by the American Addiction Center and other institutes\cite{10}\cite{11}, we obtain the following information:
 \begin{itemize}
-	\item \textbf{EDUCATION.} College graduates aged 26 or older battled opoid addiction at lower rates than those who did not graduate from high school or those who didn’t finish college.
-	\item \textbf{LONELINESS.} Those who live alone cope with opoid addiction more than those who don't.
+	\item \textbf{EDUCATION.} College graduates aged 26 or older battled opioid addiction at lower rates than those who did not graduate from high school or those who didn’t finish college.
+	\item \textbf{LONELINESS.} Those who live alone cope with opioid addiction more than those who don't.
 	\item \textbf{DISABILITY.} Those with a disability are more likely to be treated with opiods and thus more likely to become addicted.
-	\item \textbf{GENDER/RACE.} Contradictory reports exist on the influence of gender and entity/race on obtaining opoid addiction. 
+	\item \textbf{GENDER/RACE.} Contradictory reports exist on the influence of gender and entity/race on obtaining opioid addiction. 
 	\item \textbf{POVERTY/UNEMPLOYMENT/FAMILY HISTORY.} Poverty, unemployment and family history are known risk factors of opioid misuse.
 \end{itemize}
 
@@ -94,7 +94,7 @@ Correspondingly, in the dataset, we choose \textit{\bfseries HC03\_VC85}(low edu
 \subsection{Feature Extraction via LASSO}
 We do not rely directly on prior knowledge to extract features related to $\lambda$. In order to derive useful information from the dataset, we use the LASSO method to roughly observe how each factor contributes to $\lambda$. 
 
-Suppose that there are $N$ counties in the dataset, and each of these counties consists of $p$ covariates(i.e. socio-economic factors). We map these covariates to the corresponding total opoid use. In otherwords, the total opoid use is denoted as the \textbf{ \itshape outcome}. Let $y_i$ be the outcome(i.e. $F_i(x,y)$ in this context) and $x_i = (x_1, x_2, \cdots, x_p)^T$ be the covariate vector for the $i_{th}$ case.
+Suppose that there are $N$ counties in the dataset, and each of these counties consists of $p$ covariates(i.e. socio-economic factors). We map these covariates to the corresponding total opioid use. In otherwords, the total opioid use is denoted as the \textbf{ \itshape outcome}. Let $y_i$ be the outcome(i.e. $F_i(x,y)$ in this context) and $x_i = (x_1, x_2, \cdots, x_p)^T$ be the covariate vector for the $i_{th}$ case.
 
 To guarantee the reliability of the data, we removed all margin errors and some other redundant features including ANCESTRY, LANGUAGE, YEAR OF ENTRY and PLACE OF BIRTH. More details were discussed in section 3, Addressing Missing Data.
 
@@ -111,7 +111,7 @@ subject to
 
 Here, $t$ determines the level of regularization, and $\omega$ the weight. We fit the model using the coordinate descent algorithm. \cite{6}
 
-We set the penalty factor $\theta$ to 1 to maximize the reduction in dimensions and extract the most valuble and relevant feature correlated with opoid use. The LASSO result of five most influential features and their weights is shown in Table 11.
+We set the penalty factor $\theta$ to 1 to maximize the reduction in dimensions and extract the most valuble and relevant feature correlated with opioid use. The LASSO result of five most influential features and their weights is shown in Table 11.
 
 \begin{table}[H]
 	\centering
@@ -138,8 +138,8 @@ We set the penalty factor $\theta$ to 1 to maximize the reduction in dimensions 
 
 We only use LASSO as a reference to help us extract the possible influential factors, instead of directly applying the weights as the final result. From Table 11 we can conclude that
 \begin{enumerate}
-	\item Lower educational backgound may lead to opoid use.
-	\item Whether or not one lives alone relates to the possibility of opoid addiction. Family households(married/with children) may help prevent opoid usage. On the contrary, nonfamily households where householders live alone are more likely to fall victim to drugs.
+	\item Lower educational backgound may lead to opioid use.
+	\item Whether or not one lives alone relates to the possibility of opioid addiction. Family households(married/with children) may help prevent opioid usage. On the contrary, nonfamily households where householders live alone are more likely to fall victim to drugs.
 \end{enumerate}
 
 \subsection{Comparison Between Prior Knowledge and LASSO Results}
@@ -147,7 +147,7 @@ Based on reliable prior knowledge, those with a disability are more likely to us
 
 As for possible influential factors like poverty, unemployment and family history, they are unanalyzable since no such data appeared in our dataset.
 
-Contradicting hypothesis exist concerning the influence of gender and race on opoid usage, so we neglect these factors in our model.
+Contradicting hypothesis exist concerning the influence of gender and race on opioid usage, so we neglect these factors in our model.
 
 To sum up, we emphasize on \textbf{EDUCATION} and \textbf{LONELINESS}. 
 
@@ -156,7 +156,7 @@ To sum up, we emphasize on \textbf{EDUCATION} and \textbf{LONELINESS}.
 We combine feature \textit{Percent; EDUCATIONAL ATTAINMENT - Less than 9th grade} and \textit{Percent; EDUCATIONAL ATTAINMENT - 9th to 12th grade, no diploma} into one single feature named \textit{Percent; EDUCATIONAL ATTAINMENT - Less than 12th grade, no diploma}.
 
 \item \textbf{Loneliness.}
-We could consider features which are positively or negatively correlated with opoid use at the same time, but this might affect the independence between features. Thus we chose the positively correlated feature \textit{Percent; HOUSEHOLDS BY TYPE - Nonfamily households - Householdgger living alone} to characterize loneliness.
+We could consider features which are positively or negatively correlated with opioid use at the same time, but this might affect the independence between features. Thus we chose the positively correlated feature \textit{Percent; HOUSEHOLDS BY TYPE - Nonfamily households - Householdgger living alone} to characterize loneliness.
 \end{itemize}
 
 \subsection{Regression Analysis}
@@ -212,6 +212,6 @@ k_6 = -0.9004 \\
 \end{equation}
 
 In fact, mathematically, the only difference between equation (21) and (24) is their intercepts.
-Equation (24) describes how socio-economic factors affect our Opoid Spread Model from a quantitative point of view. When the details of opoid amount is not available, we would still be able to estimate the Sources' $\lambda$ through socio-economic factors.
+Equation (24) describes how socio-economic factors affect our Opioid Spread Model from a quantitative point of view. When the details of opioid amount is not available, we would still be able to estimate the Sources' $\lambda$ through socio-economic factors.
 
 

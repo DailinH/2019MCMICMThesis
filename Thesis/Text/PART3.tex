@@ -1,13 +1,13 @@
 \subsection{Strategy Description}
-Basing on the analysis and results of section 4 and 5, we are profoundly aware of the central role that Sources play in the whole Opoid Spread Model. Under the premises that the government management resources are limited, we hope to find an optimal strategy to maximize the control of opoid spread while minimize the government resources used. 
+Basing on the analysis and results of section 4 and 5, we are profoundly aware of the central role that Sources play in the whole Opioid Spread Model. Under the premises that the government management resources are limited, we hope to find an optimal strategy to maximize the control of opioid spread while minimize the government resources used. 
 
 Therefore, the strategy we take should mainly focus on Sources. To be more specific, we plan to:
 \begin{itemize}
-	\item Sourcesforce the opoid investigation efforts in Source counties to decrease the amount of opoid storage $S(t)$.
-	\item Intensify inspection and control of private vehicles passing through cross-county road, hoping to limit the amount of opoid transported from Sources to Consumers $T^{OUT}(t)$.
+	\item Sourcesforce the opioid investigation efforts in Source counties to decrease the amount of opioid storage $S(t)$.
+	\item Intensify inspection and control of private vehicles passing through cross-county road, hoping to limit the amount of opioid transported from Sources to Consumers $T^{OUT}(t)$.
 \end{itemize}
 
-We make some adjustments on the existing Discrete Opoid Spread Model in order to simulate and quantify opoid spread. No additional information could reveal the precise relationship between  $S$ and $S'$. Intuitively, we assume that 
+We make some adjustments on the existing Discrete Opioid Spread Model in order to simulate and quantify opioid spread. No additional information could reveal the precise relationship between  $S$ and $S'$. Intuitively, we assume that 
 \begin{equation}
 S'(t) = \delta S(t)
 \end{equation}
@@ -43,7 +43,7 @@ thus
 To test the effectiveness of this strategy, we focus on how the change in $\alpha$ and $\beta$ influences storage.
 
 \subsection{Evaluating the Strategy}
-\subsubsection{Simulating Opoid Spread}
+\subsubsection{Simulating Opioid Spread}
 
 \begin{wrapfigure}[13]{r}{0.25\linewidth} % Inline image example
 	\begin{center}
@@ -52,14 +52,14 @@ To test the effectiveness of this strategy, we focus on how the change in $\alph
 	\caption{Connection Between Sources and Others}
 \end{wrapfigure}
 
-We simulate opoid spread based on the directed graph we constructed in 4.2.1. We assume that drugs can be transported out of Sources into Consumers, but not vice versa. Thus we delete all edges pointing towards Sources in 4.2.1. 
+We simulate opioid spread based on the directed graph we constructed in 4.2.1. We assume that drugs can be transported out of Sources into Consumers, but not vice versa. Thus we delete all edges pointing towards Sources in 4.2.1. 
 
-We describe the simulation of opoid spread as:
+We describe the simulation of opioid spread as:
 
 \begin{enumerate}[(1)]
 	\item At $t=0$, we initialize the diagram by setting the storage of Sources to $S_i(0)=\gamma_i$, where $\gamma_i>0$ is a constant for Source $i$. We construct set VISITED = $\emptyset$ and push all Sources into VISITED. We initialize an all-zero array S\_RECORD, with a mapping from node index to array index.
 	
-	\item At $t=k, k>0$, S\_RECORD is again set to zero and the storage of Sources to $S_i(0)=\gamma_i$. For all nodes in set VISITED, we calculate their opoid transportation to their out-neighbors using equation (9).For each node $i$, we add each $v_{ij}(t)$ to S\_Record[j]. After all nodes in the VISITED set were calculated, we add S\_Record[i] to $S_i$. After this, we traverse through the graph to add all nodes with $S>0$ but not yet in set VISITED into the set. 
+	\item At $t=k, k>0$, S\_RECORD is again set to zero and the storage of Sources to $S_i(0)=\gamma_i$. For all nodes in set VISITED, we calculate their opioid transportation to their out-neighbors using equation (9).For each node $i$, we add each $v_{ij}(t)$ to S\_Record[j]. After all nodes in the VISITED set were calculated, we add S\_Record[i] to $S_i$. After this, we traverse through the graph to add all nodes with $S>0$ but not yet in set VISITED into the set. 
 
 \end{enumerate}
 
@@ -68,7 +68,7 @@ We compose a schematic diagram of storage flow. Inevitably, we will reach a poin
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{007}
-	\caption{An Example Illustrating Opoid Spread Simulation. \textit{Node 2 and 9 are Sources. White nodes indiates nodes never visited. Gray nodes are nodes in VISITED set.}}
+	\caption{An Example Illustrating Opioid Spread Simulation. \textit{Node 2 and 9 are Sources. White nodes indiates nodes never visited. Gray nodes are nodes in VISITED set.}}
 \end{figure}
 
 We assume that in year 2017, we have reached a point where all nodes are visited. Therefore, we have only to consider the change in $S_i$ for each node $i$ with the increment of $t$. 
@@ -101,11 +101,11 @@ Secondly, let $n$ be the number of counties ranked second-level Sources and abov
 	\caption{n-t diagram}
 \end{figure}
 
-From the heatmap comparison(Figure 6), we reach the conclusion that the overall level of opoid storage declines dramatically. From the n-t Diagram(Figure 7), we can see that the number of Source counties decreased to some extent. 
+From the heatmap comparison(Figure 6), we reach the conclusion that the overall level of opioid storage declines dramatically. From the n-t Diagram(Figure 7), we can see that the number of Source counties decreased to some extent. 
 
 %	\item Quantitative Method: using the threshold we proposed in Table Four, we hope that by controlling $\alpha$ and $\beta$, we could effectively reduce the number of first-level Sources and second-level Sources. Therefore, we define an ideal threshold $\mathcal{T}_1, \mathcal{T}_2$ to indicate an ideally low amount of first/second-level Sources, and compare how much time it takes for storage to change from the status in 2017 to our expected $\mathcal{T}_1, \mathcal{T}_2$ based on varying $\alpha$ and $\beta$. 
 	
-%	\item Qualitative Method: we generate a heat map of opoid storage at each time step $t$. Comparing these maps, we shall see the use-trend of opioids.
+%	\item Qualitative Method: we generate a heat map of opioid storage at each time step $t$. Comparing these maps, we shall see the use-trend of opioids.
 
 
 \subsection{Sensitivity Analysis: Identifing Significant Parameter Bounds}
@@ -122,11 +122,11 @@ change over $\varphi$. As the scattered n-$\varphi$ diagram is shown below, the 
 From the diagram above, we observe that when $\varphi > 0.4$, the decrease in $n$ is relatively slow. However, a steep decrease occur when $\varphi < 0.4$. Thus, we suggest that the significant parameter(i.e. $\varphi$) bound is $0.4$.
 
 \subsection{Extended Model}
-To make the simulation of opoid spread closer to reality, we recommend some operations to improve the model, which are unnecessary in rough simulations.
+To make the simulation of opioid spread closer to reality, we recommend some operations to improve the model, which are unnecessary in rough simulations.
 \begin{enumerate}
 	\item In our simulation process, we assume the Sources' storage $S(t)$ for each period $[t,t+1)$ to be a constant value. However, when control policies are functioning effectively, $S(t)$ is likely to be a gradually declining variable. We could define a decline coefficient to describe this scenario.
 	
-	\item Similar to what we analyzed for $S(t)$, when control strategies come into effect, the opoid consumption coefficient $\lambda$ would decline to some degree.
+	\item Similar to what we analyzed for $S(t)$, when control strategies come into effect, the opioid consumption coefficient $\lambda$ would decline to some degree.
 \end{enumerate}
 
 However, we must keep in mind that a reasonable description of the declining process for the two coefficients stated above is no easy work.
