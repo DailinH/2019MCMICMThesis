@@ -1,0 +1,19 @@
+Upon investigation, we find that the data in \textit{MCM\_NFLIS\_Data.xlsx} is already in desired form. Therefore we shall mainly focus on the data processing for  \textit{ACS\_XX\_5YR.xlsx}
+
+There are three main types of missing data mechanisms: Missing Completely at Random(MCAR), Missing at Random(MAR) and Missing not at random(NMAR). Upon investigation, we find that 
+
+\begin{enumerate}[\bfseries Problem 1.]
+	\item Missing data in the form of "**", "-", "(X)" and so on.
+	\item Tags may vary in description between different years, for example in some datasets, the tag \textit{Total Households} is used, while in others \textit{Total households} and \textit{Family Households} is used, making it difficult for automatic comparison.
+	\item Certain tags disappear in some years, and reappear in others. 
+	\item The counties that appeared in ACS datasets and NFLIS datasets are not always unanimous.
+\end{enumerate}
+
+First we address with the missing data problem, which mainly appear in file.
+
+\begin{enumerate}[\bfseries Step 1.]
+	\item For each ACS\_xx\_5YR\_DP02.csv file, we separate the \textit{data area} with others. The \textit{data area} includes only digits, "*", "-" and "(X)". 
+	\item We remove all columns in the \textit{data area} with more than ten "(X)" values.
+	\item We've just evacuated the missing data in the \textit{data area} with  "*", "-" or "(X)".
+	\item Remove all factor columns which did not appear all through year 2010-2016.
+\end{enumerate}
