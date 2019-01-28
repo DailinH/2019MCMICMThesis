@@ -1,21 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Simple Sectioned Essay Template
-% LaTeX Template
-%
-% This template has been downloaded from:
-% http://www.latextemplates.com
-%
-% Note:
-% The \lipsum[#] commands throughout this template generate dummy text
-% to fill the template out. These commands should all be removed when 
-% writing essay content.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
 \documentclass[12pt]{article} % Default font size is 12pt, it can be changed here
 \usepackage{geometry} % Required to change the page size to A4
 \geometry{a4paper,left=2cm,right=2.0cm,top=2.5cm,bottom=2.5cm} % Set the page size to be A4 as opposed to the default US Letter
@@ -38,14 +20,15 @@
 \linespread{1.0} % Line spacing
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 \pagestyle{fancy}
-\title{MCM/ICM Template}
-
 \begin{document}
 	\lhead{Team \# 1901279}
 \rhead{Page \thepage \ of \pageref{LastPage}}
 \cfoot{}
-\maketitle
 \thispagestyle{fancy}
+\begin{center}
+{\LARGE Who Drugged Me? }
+\end{center}
+
 \tableofcontents % Include a table of contents
 \newpage % Begins the essay on a new page instead of on the same page as the table of contents 
 
@@ -74,9 +57,8 @@
 \section{Strategy for Countering the Opioid Crisis}
 \input{Text/PART3}
 
-
-
-\section{Conclusion} % Major section
+\section{Conclusion}
+\input{Text/Conclusion.tex}
 
 \newpage
 \section{Memorandum}
@@ -134,12 +116,13 @@ https://www.census.gov/geo/reference/ansi.html
 
 %----------------------------------------------------------------------------------------
 \newpage
+\begin{comment}
 \appendix
 \appendixpage
 \section{Mathematical Backgrounds}
 \newpage
 \section{EXAMPLES(TO BE DELETED!)}
 \input{Text/examples}
-
+\end{comment}
 
 \end{document}

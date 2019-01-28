@@ -6,13 +6,24 @@ The following variables will be defined here here as they are widely used throug
 \hline
 \rowcolor[HTML]{656565} 
 {\color[HTML]{FFFFFF} \textbf{Symbol}} & {\color[HTML]{FFFFFF} \textbf{Definition}} \\ \hline
-$F(x,y,t)$& the amount of drug identified in location $(x,y)$ at time $t$ \\ \hline
-$S(x,y,t)$& the amount of drug stored in location $(x,y)$ at time $t$ \\ \hline
-$T_{IN}(x,y,t)$&the amount of drug transported into or produced by location$(x,y)$ at time $t$  \\ \hline
-$T_{OUT}(x,y,t)$&the amount of drug transported out of location$(x,y)$ at time $t$  \\ \hline
-$U(x,y,t)$ & the amount of drug consumed by the population in location$(x,y)$ at time $t$  \\ \hline
-$D$ & a parameter associated with the ease of opioid trafficking  \\ \hline
-$\lambda$ & the parameter associated with socio-economic factors and implies the \\ & relationship between drug usage and drug storage  \\ \hline
+$S(x,y,t)$& continuous variable, the amount of opoid stored in location $(x,y)$ at time $t$ \\ \hline
+ & continuous variable, the amount of opoid consumed by the population in \\$U(x,y,t)$ &location$(x,y)$ at time $t$  \\ \hline
+%$T_{IN}(x,y,t)$& continuous variable, the amount of opoid transported into or produced by location$(x,y)$ at time $t$  \\ \hline
+%$T_{OUT}(x,y,t)$&the amount of opoid transported out of location$(x,y)$ at time $t$  \\ \hline
+$F(x,y,t)$& the amount of opoid identified in location $(x,y)$ at time $t$ \\ \hline
+$D$ & the transportation coefficient, associated with the ease of opioid trafficking  \\ \hline
+$\lambda$ & the parameter associated with socio-economic factors and implies the \\ & relationship between opoid usage and opoid storage  \\ \hline
+$N_i$ & the set of node $i$'s out-neighbor nodes \\ \hline
+$v_{ij}$ & the amount of opoid transported from node $i$ to $j$ at time $t$ \\ \hline
+ & discrete variable, the amount of opoid stored in county $i$ at time $t$ after\\$S_i(t)$& transport-in but before transport-out \\ \hline
+ & discrete variable, the amount of opoid stored in county $i$ at time $t$ before\\$S_i'(t)$& transport-in but after transport-out \\ \hline 
+ & discrete variable, the amount of opoid consumed by the population in county\\$U_i(t)$& $i$ at time $t$ \\ \hline
+$F_i(t)$ & discrete variable, the amount of opoid identified in county $i$ at time $t$ \\ \hline
+ & discrete variable, the total amount of opoid transported into or produced by\\ $T_i^{IN}(t)$ & county $i$ at time $t$ \\ \hline
+ & discrete variable, the total amount of opoid transported into adjacent counties\\$T_i^{OUT}(t)$ & $i$ at time $t$ \\ \hline
+ $\delta$ & random variable, uniformly distributed between $(0,0.1)$\\ \hline
+ $\alpha$ & storage control coffecient, ranging from $(0,1)$\\ \hline 
+ $\beta$ & transport control coefficient, ranging from $(1, +\infty)$\\ \hline
 \end{tabular}
 \caption{Notations}
 \end{table}
