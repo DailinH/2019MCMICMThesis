@@ -1,1305 +1,625 @@
 {
-    "2010": {
-        "HC": {
-            "01": "Estimate",
-            "03": "Percent"
-        },
-        "VC": {
-            "HOUSEHOLDS BY TYPE": {
-                "03": "Total households",
-                "04": "Family households (families)",
-                "06": "Family households (families) - With own children under 18 years",
-                "07": "Family households (families) - Married-couple family",
-                "08": "Family households (families) - Married-couple family - With own children under 18 years",
-                "09": "Family households (families) - Male householder, no wife present, family",
-                "10": "Family households (families) - Male householder, no wife present, family - With own children under 18 years",
-                "11": "Family households (families) - Female householder, no husband present, family",
-                "12": "Family households (families) - Female householder, no husband present, family - With own children under 18 years",
-                "13": "Nonfamily households",
-                "14": "Nonfamily households - Householder living alone",
-                "15": "Nonfamily households - Householder living alone - 65 years and over",
-                "17": "Households with one or more people under 18 years",
-                "18": "Households with one or more people 65 years and over",
-                "20": "Average household size",
-                "21": "Average family size"
-            },
-            "RELATIONSHIP": {
-                "25": "Population in households",
-                "26": "Householder",
-                "27": "Spouse",
-                "28": "Child",
-                "29": "Other relatives",
-                "30": "Nonrelatives",
-                "31": "Nonrelatives - Unmarried partner"
-            },
-            "MARITAL STATUS": {
-                "35": "Males 15 years and over",
-                "36": "Never married",
-                "37": "Now married, except separated",
-                "38": "Separated",
-                "39": "Widowed",
-                "40": "Divorced",
-                "42": "Females 15 years and over",
-                "43": "Never married",
-                "44": "Now married, except separated",
-                "45": "Separated",
-                "46": "Widowed",
-                "47": "Divorced"
-            },
-            "FERTILITY": {
-                "51": "Number of women 15 to 50 years old who had a birth in the past 12 months",
-                "52": "Unmarried women (widowed, divorced, and never married)",
-                "53": "Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
-                "54": "Per 1,000 women 15 to 50 years old",
-                "55": "Per 1,000 women 15 to 50 years old - Per 1,000 women 15 to 19 years old",
-                "56": "Per 1,000 women 15 to 50 years old - Per 1,000 women 20 to 34 years old",
-                "57": "Per 1,000 women 15 to 50 years old - Per 1,000 women 35 to 50 years old"
-            },
-            "GRANDPARENTS": {
-                "61": "Number of grandparents living with own grandchildren under 18 years",
-                "62": "Responsible for grandchildren",
-                "64": "Responsible for grandchildren - Years responsible for grandchildren - Less than 1 year",
-                "65": "Responsible for grandchildren - Years responsible for grandchildren - 1 or 2 years",
-                "66": "Responsible for grandchildren - Years responsible for grandchildren - 3 or 4 years",
-                "67": "Responsible for grandchildren - Years responsible for grandchildren - 5 or more years",
-                "69": "Number of grandparents responsible for own grandchildren under 18 years",
-                "70": "Who are female",
-                "71": "Who are married"
-            },
-            "SCHOOL ENROLLMENT": {
-                "75": "Population 3 years and over enrolled in school",
-                "76": "Nursery school, preschool",
-                "77": "Kindergarten",
-                "78": "Elementary school (grades 1-8)",
-                "79": "High school (grades 9-12)",
-                "80": "College or graduate school"
-            },
-            "EDUCATIONAL ATTAINMENT": {
-                "84": "Population 25 years and over",
-                "85": "Less than 9th grade",
-                "86": "9th to 12th grade, no diploma",
-                "87": "High school graduate (includes equivalency)",
-                "88": "Some college, no degree",
-                "89": "Associate's degree",
-                "90": "Bachelor's degree",
-                "91": "Graduate or professional degree",
-                "93": "Percent high school graduate or higher",
-                "94": "Percent bachelor's degree or higher"
-            },
-            "VETERAN STATUS": {
-                "98": "Civilian population 18 years and over",
-                "99": "Civilian veterans"
-            },
-            "RESIDENCE 1 YEAR AGO": {
-                "117": "Population 1 year and over",
-                "118": "Same house",
-                "119": "Different house in the U.S.",
-                "120": "Different house in the U.S. - Same county",
-                "121": "Different house in the U.S. - Different county",
-                "122": "Different house in the U.S. - Different county - Same state",
-                "123": "Different house in the U.S. - Different county - Different state",
-                "124": "Abroad"
-            },
-            "PLACE OF BIRTH": {
-                "128": "Total population",
-                "129": "Native",
-                "130": "Native - Born in United States",
-                "131": "Native - Born in United States - State of residence",
-                "132": "Native - Born in United States - Different state",
-                "133": "Native - Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",
-                "134": "Foreign born"
-            },
-            "U.S. CITIZENSHIP STATUS": {
-                "138": "Foreign-born population",
-                "139": "Naturalized U.S. citizen",
-                "140": "Not a U.S. citizen"
-            },
-            "YEAR OF ENTRY": {
-                "144": "Population born outside the United States",
-                "146": "Native",
-                "147": "Entered 2000 or later",
-                "148": "Entered before 2000",
-                "150": "Foreign born",
-                "151": "Entered 2000 or later",
-                "152": "Entered before 2000"
-            },
-            "WORLD REGION OF BIRTH OF FOREIGN BORN": {
-                "156": "Foreign-born population, excluding population born at sea",
-                "157": "Europe",
-                "158": "Asia",
-                "159": "Africa",
-                "160": "Oceania",
-                "161": "Latin America",
-                "162": "Northern America"
-            },
-            "LANGUAGE SPOKEN AT HOME": {
-                "166": "Population 5 years and over",
-                "167": "English only",
-                "168": "Language other than English",
-                "170": "Language other than English - Speak English less than \"very well\"",
-                "171": "Language other than English - Spanish",
-                "172": "Language other than English - Spanish - Speak English less than \"very well\"",
-                "173": "Language other than English - Other Indo-European languages",
-                "174": "Language other than English - Other Indo-European languages - Speak English less than \"very well\"",
-                "175": "Language other than English - Asian and Pacific Islander languages",
-                "176": "Language other than English - Asian and Pacific Islander languages - Speak English less than \"very well\"",
-                "177": "Language other than English - Other languages",
-                "178": "Language other than English - Other languages - Speak English less than \"very well\""
-            },
-            "ANCESTRY": {
-                "182": "Total population",
-                "183": "American",
-                "184": "Arab",
-                "185": "Czech",
-                "186": "Danish",
-                "187": "Dutch",
-                "188": "English",
-                "189": "French (except Basque)",
-                "190": "French Canadian",
-                "191": "German",
-                "192": "Greek",
-                "193": "Hungarian",
-                "194": "Irish",
-                "195": "Italian",
-                "196": "Lithuanian",
-                "197": "Norwegian",
-                "198": "Polish",
-                "199": "Portuguese",
-                "200": "Russian",
-                "201": "Scotch-Irish",
-                "202": "Scottish",
-                "203": "Slovak",
-                "204": "Subsaharan African",
-                "205": "Swedish",
-                "206": "Swiss",
-                "207": "Ukrainian",
-                "208": "Welsh",
-                "209": "West Indian (excluding Hispanic origin groups)"
-            }
-        }
+  "2010": {
+    "HC": {
+      "03": "Percent"
     },
-    "2011": {
-        "HC": {
-            "01": "Estimate",
-            "03": "Percent"
-        },
-        "VC": {
-            "HOUSEHOLDS BY TYPE": {
-                "03": "Total households",
-                "04": "Family households (families)",
-                "06": "Family households (families) - With own children under 18 years",
-                "07": "Family households (families) - Married-couple family",
-                "08": "Family households (families) - Married-couple family - With own children under 18 years",
-                "09": "Family households (families) - Male householder, no wife present, family",
-                "10": "Family households (families) - Male householder, no wife present, family - With own children under 18 years",
-                "11": "Family households (families) - Female householder, no husband present, family",
-                "12": "Family households (families) - Female householder, no husband present, family - With own children under 18 years",
-                "13": "Nonfamily households",
-                "14": "Nonfamily households - Householder living alone",
-                "15": "Nonfamily households - Householder living alone - 65 years and over",
-                "17": "Households with one or more people under 18 years",
-                "18": "Households with one or more people 65 years and over",
-                "20": "Average household size",
-                "21": "Average family size"
-            },
-            "RELATIONSHIP": {
-                "25": "Population in households",
-                "26": "Householder",
-                "27": "Spouse",
-                "28": "Child",
-                "29": "Other relatives",
-                "30": "Nonrelatives",
-                "31": "Nonrelatives - Unmarried partner"
-            },
-            "MARITAL STATUS": {
-                "35": "Males 15 years and over",
-                "36": "Never married",
-                "37": "Now married, except separated",
-                "38": "Separated",
-                "39": "Widowed",
-                "40": "Divorced",
-                "42": "Females 15 years and over",
-                "43": "Never married",
-                "44": "Now married, except separated",
-                "45": "Separated",
-                "46": "Widowed",
-                "47": "Divorced"
-            },
-            "FERTILITY": {
-                "51": "Number of women 15 to 50 years old who had a birth in the past 12 months",
-                "52": "Unmarried women (widowed, divorced, and never married)",
-                "53": "Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
-                "54": "Per 1,000 women 15 to 50 years old",
-                "55": "Per 1,000 women 15 to 50 years old - Per 1,000 women 15 to 19 years old",
-                "56": "Per 1,000 women 15 to 50 years old - Per 1,000 women 20 to 34 years old",
-                "57": "Per 1,000 women 15 to 50 years old - Per 1,000 women 35 to 50 years old"
-            },
-            "GRANDPARENTS": {
-                "61": "Number of grandparents living with own grandchildren under 18 years",
-                "62": "Responsible for grandchildren",
-                "64": "Responsible for grandchildren - Years responsible for grandchildren - Less than 1 year",
-                "65": "Responsible for grandchildren - Years responsible for grandchildren - 1 or 2 years",
-                "66": "Responsible for grandchildren - Years responsible for grandchildren - 3 or 4 years",
-                "67": "Responsible for grandchildren - Years responsible for grandchildren - 5 or more years",
-                "69": "Number of grandparents responsible for own grandchildren under 18 years",
-                "70": "Who are female",
-                "71": "Who are married"
-            },
-            "SCHOOL ENROLLMENT": {
-                "75": "Population 3 years and over enrolled in school",
-                "76": "Nursery school, preschool",
-                "77": "Kindergarten",
-                "78": "Elementary school (grades 1-8)",
-                "79": "High school (grades 9-12)",
-                "80": "College or graduate school"
-            },
-            "EDUCATIONAL ATTAINMENT": {
-                "84": "Population 25 years and over",
-                "85": "Less than 9th grade",
-                "86": "9th to 12th grade, no diploma",
-                "87": "High school graduate (includes equivalency)",
-                "88": "Some college, no degree",
-                "89": "Associate's degree",
-                "90": "Bachelor's degree",
-                "91": "Graduate or professional degree",
-                "93": "Percent high school graduate or higher",
-                "94": "Percent bachelor's degree or higher"
-            },
-            "VETERAN STATUS": {
-                "98": "Civilian population 18 years and over",
-                "99": "Civilian veterans"
-            },
-            "RESIDENCE 1 YEAR AGO": {
-                "117": "Population 1 year and over",
-                "118": "Same house",
-                "119": "Different house in the U.S.",
-                "120": "Different house in the U.S. - Same county",
-                "121": "Different house in the U.S. - Different county",
-                "122": "Different house in the U.S. - Different county - Same state",
-                "123": "Different house in the U.S. - Different county - Different state",
-                "124": "Abroad"
-            },
-            "PLACE OF BIRTH": {
-                "128": "Total population",
-                "129": "Native",
-                "130": "Native - Born in United States",
-                "131": "Native - Born in United States - State of residence",
-                "132": "Native - Born in United States - Different state",
-                "133": "Native - Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",
-                "134": "Foreign born"
-            },
-            "U.S. CITIZENSHIP STATUS": {
-                "138": "Foreign-born population",
-                "139": "Naturalized U.S. citizen",
-                "140": "Not a U.S. citizen"
-            },
-            "YEAR OF ENTRY": {
-                "144": "Population born outside the United States",
-                "146": "Native",
-                "147": "Entered 2000 or later",
-                "148": "Entered before 2000",
-                "150": "Foreign born",
-                "151": "Entered 2000 or later",
-                "152": "Entered before 2000"
-            },
-            "WORLD REGION OF BIRTH OF FOREIGN BORN": {
-                "156": "Foreign-born population, excluding population born at sea",
-                "157": "Europe",
-                "158": "Asia",
-                "159": "Africa",
-                "160": "Oceania",
-                "161": "Latin America",
-                "162": "Northern America"
-            },
-            "LANGUAGE SPOKEN AT HOME": {
-                "166": "Population 5 years and over",
-                "167": "English only",
-                "168": "Language other than English",
-                "170": "Language other than English - Speak English less than \"very well\"",
-                "171": "Language other than English - Spanish",
-                "172": "Language other than English - Spanish - Speak English less than \"very well\"",
-                "173": "Language other than English - Other Indo-European languages",
-                "174": "Language other than English - Other Indo-European languages - Speak English less than \"very well\"",
-                "175": "Language other than English - Asian and Pacific Islander languages",
-                "176": "Language other than English - Asian and Pacific Islander languages - Speak English less than \"very well\"",
-                "177": "Language other than English - Other languages",
-                "178": "Language other than English - Other languages - Speak English less than \"very well\""
-            },
-            "ANCESTRY": {
-                "182": "Total population",
-                "183": "American",
-                "184": "Arab",
-                "185": "Czech",
-                "186": "Danish",
-                "187": "Dutch",
-                "188": "English",
-                "189": "French (except Basque)",
-                "190": "French Canadian",
-                "191": "German",
-                "192": "Greek",
-                "193": "Hungarian",
-                "194": "Irish",
-                "195": "Italian",
-                "196": "Lithuanian",
-                "197": "Norwegian",
-                "198": "Polish",
-                "199": "Portuguese",
-                "200": "Russian",
-                "201": "Scotch-Irish",
-                "202": "Scottish",
-                "203": "Slovak",
-                "204": "Subsaharan African",
-                "205": "Swedish",
-                "206": "Swiss",
-                "207": "Ukrainian",
-                "208": "Welsh",
-                "209": "West Indian (excluding Hispanic origin groups)"
-            }
-        }
-    },
-    "2012": {
-        "HC": {
-            "01": "Estimate",
-            "03": "Percent"
-        },
-        "VC": {
-            "HOUSEHOLDS BY TYPE": {
-                "03": "Total households",
-                "04": "Family households (families)",
-                "06": "Family households (families) - With own children under 18 years",
-                "07": "Family households (families) - Married-couple family",
-                "08": "Family households (families) - Married-couple family - With own children under 18 years",
-                "09": "Family households (families) - Male householder, no wife present, family",
-                "10": "Family households (families) - Male householder, no wife present, family - With own children under 18 years",
-                "11": "Family households (families) - Female householder, no husband present, family",
-                "12": "Family households (families) - Female householder, no husband present, family - With own children under 18 years",
-                "13": "Nonfamily households",
-                "14": "Nonfamily households - Householder living alone",
-                "15": "Nonfamily households - Householder living alone - 65 years and over",
-                "17": "Households with one or more people under 18 years",
-                "18": "Households with one or more people 65 years and over",
-                "20": "Average household size",
-                "21": "Average family size"
-            },
-            "RELATIONSHIP": {
-                "25": "Population in households",
-                "26": "Householder",
-                "27": "Spouse",
-                "28": "Child",
-                "29": "Other relatives",
-                "30": "Nonrelatives",
-                "31": "Nonrelatives - Unmarried partner"
-            },
-            "MARITAL STATUS": {
-                "35": "Males 15 years and over",
-                "36": "Never married",
-                "37": "Now married, except separated",
-                "38": "Separated",
-                "39": "Widowed",
-                "40": "Divorced",
-                "42": "Females 15 years and over",
-                "43": "Never married",
-                "44": "Now married, except separated",
-                "45": "Separated",
-                "46": "Widowed",
-                "47": "Divorced"
-            },
-            "FERTILITY": {
-                "51": "Number of women 15 to 50 years old who had a birth in the past 12 months",
-                "52": "Unmarried women (widowed, divorced, and never married)",
-                "53": "Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
-                "54": "Per 1,000 women 15 to 50 years old",
-                "55": "Per 1,000 women 15 to 50 years old - Per 1,000 women 15 to 19 years old",
-                "56": "Per 1,000 women 15 to 50 years old - Per 1,000 women 20 to 34 years old",
-                "57": "Per 1,000 women 15 to 50 years old - Per 1,000 women 35 to 50 years old"
-            },
-            "GRANDPARENTS": {
-                "61": "Number of grandparents living with own grandchildren under 18 years",
-                "62": "Responsible for grandchildren",
-                "64": "Responsible for grandchildren - Years responsible for grandchildren - Less than 1 year",
-                "65": "Responsible for grandchildren - Years responsible for grandchildren - 1 or 2 years",
-                "66": "Responsible for grandchildren - Years responsible for grandchildren - 3 or 4 years",
-                "67": "Responsible for grandchildren - Years responsible for grandchildren - 5 or more years",
-                "69": "Number of grandparents responsible for own grandchildren under 18 years",
-                "70": "Who are female",
-                "71": "Who are married"
-            },
-            "SCHOOL ENROLLMENT": {
-                "75": "Population 3 years and over enrolled in school",
-                "76": "Nursery school, preschool",
-                "77": "Kindergarten",
-                "78": "Elementary school (grades 1-8)",
-                "79": "High school (grades 9-12)",
-                "80": "College or graduate school"
-            },
-            "EDUCATIONAL ATTAINMENT": {
-                "84": "Population 25 years and over",
-                "85": "Less than 9th grade",
-                "86": "9th to 12th grade, no diploma",
-                "87": "High school graduate (includes equivalency)",
-                "88": "Some college, no degree",
-                "89": "Associate's degree",
-                "90": "Bachelor's degree",
-                "91": "Graduate or professional degree",
-                "93": "Percent high school graduate or higher",
-                "94": "Percent bachelor's degree or higher"
-            },
-            "VETERAN STATUS": {
-                "98": "Civilian population 18 years and over",
-                "99": "Civilian veterans"
-            },
-            "DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION": {
-                "103": "Total Civilian Noninstitutionalized Population",
-                "104": "With a disability",
-                "106": "Under 18 years",
-                "107": "With a disability",
-                "109": "18 to 64 years",
-                "110": "With a disability",
-                "112": "65 years and over",
-                "113": "With a disability"
-            },
-            "RESIDENCE 1 YEAR AGO": {
-                "117": "Population 1 year and over",
-                "118": "Same house",
-                "119": "Different house in the U.S.",
-                "120": "Different house in the U.S. - Same county",
-                "121": "Different house in the U.S. - Different county",
-                "122": "Different house in the U.S. - Different county - Same state",
-                "123": "Different house in the U.S. - Different county - Different state",
-                "124": "Abroad"
-            },
-            "PLACE OF BIRTH": {
-                "128": "Total population",
-                "129": "Native",
-                "130": "Native - Born in United States",
-                "131": "Native - Born in United States - State of residence",
-                "132": "Native - Born in United States - Different state",
-                "133": "Native - Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",
-                "134": "Foreign born"
-            },
-            "U.S. CITIZENSHIP STATUS": {
-                "138": "Foreign-born population",
-                "139": "Naturalized U.S. citizen",
-                "140": "Not a U.S. citizen"
-            },
-            "YEAR OF ENTRY": {
-                "144": "Population born outside the United States",
-                "146": "Native",
-                "147": "Entered 2010 or later",
-                "148": "Entered before 2010",
-                "150": "Foreign born",
-                "151": "Entered 2010 or later",
-                "152": "Entered before 2010"
-            },
-            "WORLD REGION OF BIRTH OF FOREIGN BORN": {
-                "156": "Foreign-born population, excluding population born at sea",
-                "157": "Europe",
-                "158": "Asia",
-                "159": "Africa",
-                "160": "Oceania",
-                "161": "Latin America",
-                "162": "Northern America"
-            },
-            "LANGUAGE SPOKEN AT HOME": {
-                "166": "Population 5 years and over",
-                "167": "English only",
-                "168": "Language other than English",
-                "170": "Language other than English - Speak English less than \"very well\"",
-                "171": "Language other than English - Spanish",
-                "172": "Language other than English - Spanish - Speak English less than \"very well\"",
-                "173": "Language other than English - Other Indo-European languages",
-                "174": "Language other than English - Other Indo-European languages - Speak English less than \"very well\"",
-                "175": "Language other than English - Asian and Pacific Islander languages",
-                "176": "Language other than English - Asian and Pacific Islander languages - Speak English less than \"very well\"",
-                "177": "Language other than English - Other languages",
-                "178": "Language other than English - Other languages - Speak English less than \"very well\""
-            },
-            "ANCESTRY": {
-                "182": "Total population",
-                "183": "American",
-                "184": "Arab",
-                "185": "Czech",
-                "186": "Danish",
-                "187": "Dutch",
-                "188": "English",
-                "189": "French (except Basque)",
-                "190": "French Canadian",
-                "191": "German",
-                "192": "Greek",
-                "193": "Hungarian",
-                "194": "Irish",
-                "195": "Italian",
-                "196": "Lithuanian",
-                "197": "Norwegian",
-                "198": "Polish",
-                "199": "Portuguese",
-                "200": "Russian",
-                "201": "Scotch-Irish",
-                "202": "Scottish",
-                "203": "Slovak",
-                "204": "Subsaharan African",
-                "205": "Swedish",
-                "206": "Swiss",
-                "207": "Ukrainian",
-                "208": "Welsh",
-                "209": "West Indian (excluding Hispanic origin groups)"
-            }
-        }
-    },
-    "2013": {
-        "HC": {
-            "01": "Estimate",
-            "03": "Percent"
-        },
-        "VC": {
-            "HOUSEHOLDS BY TYPE": {
-                "03": "Total households",
-                "04": "Total households - Family households (families)",
-                "05": "Total households - Family households (families) - With own children under 18 years",
-                "06": "Total households - Family households (families) - Married-couple family",
-                "07": "Total households - Family households (families) - Married-couple family - With own children under 18 years",
-                "08": "Total households - Family households (families) - Male householder, no wife present, family",
-                "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children under 18 years",
-                "10": "Total households - Family households (families) - Female householder, no husband present, family",
-                "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children under 18 years",
-                "12": "Total households - Nonfamily households",
-                "13": "Total households - Nonfamily households - Householder living alone",
-                "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
-                "17": "Households with one or more people under 18 years",
-                "18": "Households with one or more people 65 years and over",
-                "21": "Average household size",
-                "22": "Average family size"
-            },
-            "RELATIONSHIP": {
-                "26": "Population in households",
-                "27": "Population in households - Householder",
-                "28": "Population in households - Spouse",
-                "29": "Population in households - Child",
-                "30": "Population in households - Other relatives",
-                "31": "Population in households - Nonrelatives",
-                "32": "Population in households - Nonrelatives - Unmarried partner"
-            },
-            "MARITAL STATUS": {
-                "36": "Males 15 years and over",
-                "37": "Males 15 years and over - Never married",
-                "38": "Males 15 years and over - Now married, except separated",
-                "39": "Males 15 years and over - Separated",
-                "40": "Males 15 years and over - Widowed",
-                "41": "Males 15 years and over - Divorced",
-                "43": "Females 15 years and over",
-                "44": "Females 15 years and over - Never married",
-                "45": "Females 15 years and over - Now married, except separated",
-                "46": "Females 15 years and over - Separated",
-                "47": "Females 15 years and over - Widowed",
-                "48": "Females 15 years and over - Divorced"
-            },
-            "FERTILITY": {
-                "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
-                "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
-                "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
-                "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
-                "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
-                "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
-                "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
-            },
-            "GRANDPARENTS": {
-                "62": "Number of grandparents living with own grandchildren under 18 years",
-                "63": "Number of grandparents living with own grandchildren under 18 years - Responsible for grandchildren",
-                "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
-                "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
-                "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
-                "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
-                "70": "Number of grandparents responsible for own grandchildren under 18 years",
-                "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
-                "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
-            },
-            "SCHOOL ENROLLMENT": {
-                "76": "Population 3 years and over enrolled in school",
-                "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
-                "78": "Population 3 years and over enrolled in school - Kindergarten",
-                "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
-                "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
-                "81": "Population 3 years and over enrolled in school - College or graduate school"
-            },
-            "EDUCATIONAL ATTAINMENT": {
-                "85": "Population 25 years and over",
-                "86": "Population 25 years and over - Less than 9th grade",
-                "87": "Population 25 years and over - 9th to 12th grade, no diploma",
-                "88": "Population 25 years and over - High school graduate (includes equivalency)",
-                "89": "Population 25 years and over - Some college, no degree",
-                "90": "Population 25 years and over - Associate's degree",
-                "91": "Population 25 years and over - Bachelor's degree",
-                "92": "Population 25 years and over - Graduate or professional degree",
-                "95": "Percent high school graduate or higher",
-                "96": "Percent bachelor's degree or higher"
-            },
-            "VETERAN STATUS": {
-                "100": "Civilian population 18 years and over",
-                "101": "Civilian population 18 years and over - Civilian veterans"
-            },
-            "DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION": {
-                "105": "Total Civilian Noninstitutionalized Population",
-                "106": "Total Civilian Noninstitutionalized Population - With a disability",
-                "108": "Under 18 years",
-                "109": "Under 18 years - With a disability",
-                "111": "18 to 64 years",
-                "112": "18 to 64 years - With a disability",
-                "114": "65 years and over",
-                "115": "65 years and over - With a disability"
-            },
-            "RESIDENCE 1 YEAR AGO": {
-                "119": "Population 1 year and over",
-                "120": "Population 1 year and over - Same house",
-                "121": "Population 1 year and over - Different house in the U.S.",
-                "122": "Population 1 year and over - Different house in the U.S. - Same county",
-                "123": "Population 1 year and over - Different house in the U.S. - Different county",
-                "124": "Population 1 year and over - Different house in the U.S. - Different county - Same state",
-                "125": "Population 1 year and over - Different house in the U.S. - Different county - Different state",
-                "126": "Population 1 year and over - Abroad"
-            },
-            "PLACE OF BIRTH": {
-                "130": "Total population",
-                "131": "Total population - Native",
-                "132": "Total population - Native - Born in United States",
-                "133": "Total population - Native - Born in United States - State of residence",
-                "134": "Total population - Native - Born in United States - Different state",
-                "135": "Total population - Native - Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",
-                "136": "Total population - Foreign born"
-            },
-            "U.S. CITIZENSHIP STATUS": {
-                "140": "Foreign-born population",
-                "141": "Foreign-born population - Naturalized U.S. citizen",
-                "142": "Foreign-born population - Not a U.S. citizen"
-            },
-            "YEAR OF ENTRY": {
-                "146": "Population born outside the United States",
-                "149": "Native",
-                "150": "Native - Entered 2010 or later",
-                "151": "Native - Entered before 2010",
-                "154": "Foreign born",
-                "155": "Foreign born - Entered 2010 or later",
-                "156": "Foreign born - Entered before 2010"
-            },
-            "WORLD REGION OF BIRTH OF FOREIGN BORN": {
-                "160": "Foreign-born population, excluding population born at sea",
-                "161": "Foreign-born population, excluding population born at sea - Europe",
-                "162": "Foreign-born population, excluding population born at sea - Asia",
-                "163": "Foreign-born population, excluding population born at sea - Africa",
-                "164": "Foreign-born population, excluding population born at sea - Oceania",
-                "165": "Foreign-born population, excluding population born at sea - Latin America",
-                "166": "Foreign-born population, excluding population born at sea - Northern America"
-            },
-            "LANGUAGE SPOKEN AT HOME": {
-                "170": "Population 5 years and over",
-                "171": "Population 5 years and over - English only",
-                "172": "Population 5 years and over - Language other than English",
-                "173": "Population 5 years and over - Language other than English - Speak English less than \"very well\"",
-                "174": "Population 5 years and over - Spanish",
-                "175": "Population 5 years and over - Spanish - Speak English less than \"very well\"",
-                "176": "Population 5 years and over - Other Indo-European languages",
-                "177": "Population 5 years and over - Other Indo-European languages - Speak English less than \"very well\"",
-                "178": "Population 5 years and over - Asian and Pacific Islander languages",
-                "179": "Population 5 years and over - Asian and Pacific Islander languages - Speak English less than \"very well\"",
-                "180": "Population 5 years and over - Other languages",
-                "181": "Population 5 years and over - Other languages - Speak English less than \"very well\""
-            },
-            "ANCESTRY": {
-                "185": "Total population",
-                "186": "Total population - American",
-                "187": "Total population - Arab",
-                "188": "Total population - Czech",
-                "189": "Total population - Danish",
-                "190": "Total population - Dutch",
-                "191": "Total population - English",
-                "192": "Total population - French (except Basque)",
-                "193": "Total population - French Canadian",
-                "194": "Total population - German",
-                "195": "Total population - Greek",
-                "196": "Total population - Hungarian",
-                "197": "Total population - Irish",
-                "198": "Total population - Italian",
-                "199": "Total population - Lithuanian",
-                "200": "Total population - Norwegian",
-                "201": "Total population - Polish",
-                "202": "Total population - Portuguese",
-                "203": "Total population - Russian",
-                "204": "Total population - Scotch-Irish",
-                "205": "Total population - Scottish",
-                "206": "Total population - Slovak",
-                "207": "Total population - Subsaharan African",
-                "208": "Total population - Swedish",
-                "209": "Total population - Swiss",
-                "210": "Total population - Ukrainian",
-                "211": "Total population - Welsh",
-                "212": "Total population - West Indian (excluding Hispanic origin groups)"
-            }
-        }
-    },
-    "2014": {
-        "HC": {
-            "01": "Estimate",
-            "03": "Percent"
-        },
-        "VC": {
-            "HOUSEHOLDS BY TYPE": {
-                "03": "Total households",
-                "04": "Total households - Family households (families)",
-                "05": "Total households - Family households (families) - With own children under 18 years",
-                "06": "Total households - Family households (families) - Married-couple family",
-                "07": "Total households - Family households (families) - Married-couple family - With own children under 18 years",
-                "08": "Total households - Family households (families) - Male householder, no wife present, family",
-                "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children under 18 years",
-                "10": "Total households - Family households (families) - Female householder, no husband present, family",
-                "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children under 18 years",
-                "12": "Total households - Nonfamily households",
-                "13": "Total households - Nonfamily households - Householder living alone",
-                "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
-                "17": "Households with one or more people under 18 years",
-                "18": "Households with one or more people 65 years and over",
-                "21": "Average household size",
-                "22": "Average family size"
-            },
-            "RELATIONSHIP": {
-                "26": "Population in households",
-                "27": "Population in households - Householder",
-                "28": "Population in households - Spouse",
-                "29": "Population in households - Child",
-                "30": "Population in households - Other relatives",
-                "31": "Population in households - Nonrelatives",
-                "32": "Population in households - Nonrelatives - Unmarried partner"
-            },
-            "MARITAL STATUS": {
-                "36": "Males 15 years and over",
-                "37": "Males 15 years and over - Never married",
-                "38": "Males 15 years and over - Now married, except separated",
-                "39": "Males 15 years and over - Separated",
-                "40": "Males 15 years and over - Widowed",
-                "41": "Males 15 years and over - Divorced",
-                "43": "Females 15 years and over",
-                "44": "Females 15 years and over - Never married",
-                "45": "Females 15 years and over - Now married, except separated",
-                "46": "Females 15 years and over - Separated",
-                "47": "Females 15 years and over - Widowed",
-                "48": "Females 15 years and over - Divorced"
-            },
-            "FERTILITY": {
-                "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
-                "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
-                "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
-                "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
-                "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
-                "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
-                "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
-            },
-            "GRANDPARENTS": {
-                "62": "Number of grandparents living with own grandchildren under 18 years",
-                "63": "Number of grandparents living with own grandchildren under 18 years - Responsible for grandchildren",
-                "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
-                "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
-                "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
-                "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
-                "70": "Number of grandparents responsible for own grandchildren under 18 years",
-                "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
-                "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
-            },
-            "SCHOOL ENROLLMENT": {
-                "76": "Population 3 years and over enrolled in school",
-                "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
-                "78": "Population 3 years and over enrolled in school - Kindergarten",
-                "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
-                "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
-                "81": "Population 3 years and over enrolled in school - College or graduate school"
-            },
-            "EDUCATIONAL ATTAINMENT": {
-                "85": "Population 25 years and over",
-                "86": "Population 25 years and over - Less than 9th grade",
-                "87": "Population 25 years and over - 9th to 12th grade, no diploma",
-                "88": "Population 25 years and over - High school graduate (includes equivalency)",
-                "89": "Population 25 years and over - Some college, no degree",
-                "90": "Population 25 years and over - Associate's degree",
-                "91": "Population 25 years and over - Bachelor's degree",
-                "92": "Population 25 years and over - Graduate or professional degree",
-                "95": "Percent high school graduate or higher",
-                "96": "Percent bachelor's degree or higher"
-            },
-            "VETERAN STATUS": {
-                "100": "Civilian population 18 years and over",
-                "101": "Civilian population 18 years and over - Civilian veterans"
-            },
-            "DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION": {
-                "105": "Total Civilian Noninstitutionalized Population",
-                "106": "Total Civilian Noninstitutionalized Population - With a disability",
-                "108": "Under 18 years",
-                "109": "Under 18 years - With a disability",
-                "111": "18 to 64 years",
-                "112": "18 to 64 years - With a disability",
-                "114": "65 years and over",
-                "115": "65 years and over - With a disability"
-            },
-            "RESIDENCE 1 YEAR AGO": {
-                "119": "Population 1 year and over",
-                "120": "Population 1 year and over - Same house",
-                "121": "Population 1 year and over - Different house in the U.S.",
-                "122": "Population 1 year and over - Different house in the U.S. - Same county",
-                "123": "Population 1 year and over - Different house in the U.S. - Different county",
-                "124": "Population 1 year and over - Different house in the U.S. - Different county - Same state",
-                "125": "Population 1 year and over - Different house in the U.S. - Different county - Different state",
-                "126": "Population 1 year and over - Abroad"
-            },
-            "PLACE OF BIRTH": {
-                "130": "Total population",
-                "131": "Total population - Native",
-                "132": "Total population - Native - Born in United States",
-                "133": "Total population - Native - Born in United States - State of residence",
-                "134": "Total population - Native - Born in United States - Different state",
-                "135": "Total population - Native - Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",
-                "136": "Total population - Foreign born"
-            },
-            "U.S. CITIZENSHIP STATUS": {
-                "140": "Foreign-born population",
-                "141": "Foreign-born population - Naturalized U.S. citizen",
-                "142": "Foreign-born population - Not a U.S. citizen"
-            },
-            "YEAR OF ENTRY": {
-                "146": "Population born outside the United States",
-                "149": "Native",
-                "150": "Native - Entered 2010 or later",
-                "151": "Native - Entered before 2010",
-                "154": "Foreign born",
-                "155": "Foreign born - Entered 2010 or later",
-                "156": "Foreign born - Entered before 2010"
-            },
-            "WORLD REGION OF BIRTH OF FOREIGN BORN": {
-                "160": "Foreign-born population, excluding population born at sea",
-                "161": "Foreign-born population, excluding population born at sea - Europe",
-                "162": "Foreign-born population, excluding population born at sea - Asia",
-                "163": "Foreign-born population, excluding population born at sea - Africa",
-                "164": "Foreign-born population, excluding population born at sea - Oceania",
-                "165": "Foreign-born population, excluding population born at sea - Latin America",
-                "166": "Foreign-born population, excluding population born at sea - Northern America"
-            },
-            "LANGUAGE SPOKEN AT HOME": {
-                "170": "Population 5 years and over",
-                "171": "Population 5 years and over - English only",
-                "172": "Population 5 years and over - Language other than English",
-                "173": "Population 5 years and over - Language other than English - Speak English less than \"very well\"",
-                "174": "Population 5 years and over - Spanish",
-                "175": "Population 5 years and over - Spanish - Speak English less than \"very well\"",
-                "176": "Population 5 years and over - Other Indo-European languages",
-                "177": "Population 5 years and over - Other Indo-European languages - Speak English less than \"very well\"",
-                "178": "Population 5 years and over - Asian and Pacific Islander languages",
-                "179": "Population 5 years and over - Asian and Pacific Islander languages - Speak English less than \"very well\"",
-                "180": "Population 5 years and over - Other languages",
-                "181": "Population 5 years and over - Other languages - Speak English less than \"very well\""
-            },
-            "ANCESTRY": {
-                "185": "Total population",
-                "186": "Total population - American",
-                "187": "Total population - Arab",
-                "188": "Total population - Czech",
-                "189": "Total population - Danish",
-                "190": "Total population - Dutch",
-                "191": "Total population - English",
-                "192": "Total population - French (except Basque)",
-                "193": "Total population - French Canadian",
-                "194": "Total population - German",
-                "195": "Total population - Greek",
-                "196": "Total population - Hungarian",
-                "197": "Total population - Irish",
-                "198": "Total population - Italian",
-                "199": "Total population - Lithuanian",
-                "200": "Total population - Norwegian",
-                "201": "Total population - Polish",
-                "202": "Total population - Portuguese",
-                "203": "Total population - Russian",
-                "204": "Total population - Scotch-Irish",
-                "205": "Total population - Scottish",
-                "206": "Total population - Slovak",
-                "207": "Total population - Subsaharan African",
-                "208": "Total population - Swedish",
-                "209": "Total population - Swiss",
-                "210": "Total population - Ukrainian",
-                "211": "Total population - Welsh",
-                "212": "Total population - West Indian (excluding Hispanic origin groups)"
-            }
-        }
-    },
-    "2015": {
-        "HC": {
-            "01": "Estimate",
-            "03": "Percent"
-        },
-        "VC": {
-            "HOUSEHOLDS BY TYPE": {
-                "03": "Total households",
-                "04": "Total households - Family households (families)",
-                "05": "Total households - Family households (families) - With own children of the householder under 18 years",
-                "06": "Total households - Family households (families) - Married-couple family",
-                "07": "Total households - Family households (families) - Married-couple family - With own children of the householder under 18 years",
-                "08": "Total households - Family households (families) - Male householder, no wife present, family",
-                "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children of the householder under 18 years",
-                "10": "Total households - Family households (families) - Female householder, no husband present, family",
-                "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children of the householder under 18 years",
-                "12": "Total households - Nonfamily households",
-                "13": "Total households - Nonfamily households - Householder living alone",
-                "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
-                "17": "Households with one or more people under 18 years",
-                "18": "Households with one or more people 65 years and over",
-                "21": "Average household size",
-                "22": "Average family size"
-            },
-            "RELATIONSHIP": {
-                "26": "Population in households",
-                "27": "Population in households - Householder",
-                "28": "Population in households - Spouse",
-                "29": "Population in households - Child",
-                "30": "Population in households - Other relatives",
-                "31": "Population in households - Nonrelatives",
-                "32": "Population in households - Nonrelatives - Unmarried partner"
-            },
-            "MARITAL STATUS": {
-                "36": "Males 15 years and over",
-                "37": "Males 15 years and over - Never married",
-                "38": "Males 15 years and over - Now married, except separated",
-                "39": "Males 15 years and over - Separated",
-                "40": "Males 15 years and over - Widowed",
-                "41": "Males 15 years and over - Divorced",
-                "43": "Females 15 years and over",
-                "44": "Females 15 years and over - Never married",
-                "45": "Females 15 years and over - Now married, except separated",
-                "46": "Females 15 years and over - Separated",
-                "47": "Females 15 years and over - Widowed",
-                "48": "Females 15 years and over - Divorced"
-            },
-            "FERTILITY": {
-                "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
-                "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
-                "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
-                "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
-                "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
-                "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
-                "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
-            },
-            "GRANDPARENTS": {
-                "62": "Number of grandparents living with own grandchildren under 18 years",
-                "63": "Number of grandparents living with own grandchildren under 18 years - Grandparents responsible for grandchildren",
-                "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
-                "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
-                "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
-                "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
-                "70": "Number of grandparents responsible for own grandchildren under 18 years",
-                "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
-                "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
-            },
-            "SCHOOL ENROLLMENT": {
-                "76": "Population 3 years and over enrolled in school",
-                "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
-                "78": "Population 3 years and over enrolled in school - Kindergarten",
-                "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
-                "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
-                "81": "Population 3 years and over enrolled in school - College or graduate school"
-            },
-            "EDUCATIONAL ATTAINMENT": {
-                "85": "Population 25 years and over",
-                "86": "Population 25 years and over - Less than 9th grade",
-                "87": "Population 25 years and over - 9th to 12th grade, no diploma",
-                "88": "Population 25 years and over - High school graduate (includes equivalency)",
-                "89": "Population 25 years and over - Some college, no degree",
-                "90": "Population 25 years and over - Associate's degree",
-                "91": "Population 25 years and over - Bachelor's degree",
-                "92": "Population 25 years and over - Graduate or professional degree",
-                "95": "Percent high school graduate or higher",
-                "96": "Percent bachelor's degree or higher"
-            },
-            "VETERAN STATUS": {
-                "100": "Civilian population 18 years and over",
-                "101": "Civilian population 18 years and over - Civilian veterans"
-            },
-            "DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION": {
-                "105": "Total Civilian Noninstitutionalized Population",
-                "106": "Total Civilian Noninstitutionalized Population - With a disability",
-                "108": "Under 18 years",
-                "109": "Under 18 years - With a disability",
-                "111": "18 to 64 years",
-                "112": "18 to 64 years - With a disability",
-                "114": "65 years and over",
-                "115": "65 years and over - With a disability"
-            },
-            "RESIDENCE 1 YEAR AGO": {
-                "119": "Population 1 year and over",
-                "120": "Population 1 year and over - Same house",
-                "121": "Population 1 year and over - Different house in the U.S.",
-                "122": "Population 1 year and over - Different house in the U.S. - Same county",
-                "123": "Population 1 year and over - Different house in the U.S. - Different county",
-                "124": "Population 1 year and over - Different house in the U.S. - Different county - Same state",
-                "125": "Population 1 year and over - Different house in the U.S. - Different county - Different state",
-                "126": "Population 1 year and over - Abroad"
-            },
-            "PLACE OF BIRTH": {
-                "130": "Total population",
-                "131": "Total population - Native",
-                "132": "Total population - Native - Born in United States",
-                "133": "Total population - Native - Born in United States - State of residence",
-                "134": "Total population - Native - Born in United States - Different state",
-                "135": "Total population - Native - Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",
-                "136": "Total population - Foreign born"
-            },
-            "U.S. CITIZENSHIP STATUS": {
-                "140": "Foreign-born population",
-                "141": "Foreign-born population - Naturalized U.S. citizen",
-                "142": "Foreign-born population - Not a U.S. citizen"
-            },
-            "YEAR OF ENTRY": {
-                "146": "Population born outside the United States",
-                "149": "Native",
-                "150": "Native - Entered 2010 or later",
-                "151": "Native - Entered before 2010",
-                "154": "Foreign born",
-                "155": "Foreign born - Entered 2010 or later",
-                "156": "Foreign born - Entered before 2010"
-            },
-            "WORLD REGION OF BIRTH OF FOREIGN BORN": {
-                "160": "Foreign-born population, excluding population born at sea",
-                "161": "Foreign-born population, excluding population born at sea - Europe",
-                "162": "Foreign-born population, excluding population born at sea - Asia",
-                "163": "Foreign-born population, excluding population born at sea - Africa",
-                "164": "Foreign-born population, excluding population born at sea - Oceania",
-                "165": "Foreign-born population, excluding population born at sea - Latin America",
-                "166": "Foreign-born population, excluding population born at sea - Northern America"
-            },
-            "LANGUAGE SPOKEN AT HOME": {
-                "170": "Population 5 years and over",
-                "171": "Population 5 years and over - English only",
-                "172": "Population 5 years and over - Language other than English",
-                "173": "Population 5 years and over - Language other than English - Speak English less than \"very well\"",
-                "174": "Population 5 years and over - Spanish",
-                "175": "Population 5 years and over - Spanish - Speak English less than \"very well\"",
-                "176": "Population 5 years and over - Other Indo-European languages",
-                "177": "Population 5 years and over - Other Indo-European languages - Speak English less than \"very well\"",
-                "178": "Population 5 years and over - Asian and Pacific Islander languages",
-                "179": "Population 5 years and over - Asian and Pacific Islander languages - Speak English less than \"very well\"",
-                "180": "Population 5 years and over - Other languages",
-                "181": "Population 5 years and over - Other languages - Speak English less than \"very well\""
-            },
-            "ANCESTRY": {
-                "185": "Total population",
-                "186": "Total population - American",
-                "187": "Total population - Arab",
-                "188": "Total population - Czech",
-                "189": "Total population - Danish",
-                "190": "Total population - Dutch",
-                "191": "Total population - English",
-                "192": "Total population - French (except Basque)",
-                "193": "Total population - French Canadian",
-                "194": "Total population - German",
-                "195": "Total population - Greek",
-                "196": "Total population - Hungarian",
-                "197": "Total population - Irish",
-                "198": "Total population - Italian",
-                "199": "Total population - Lithuanian",
-                "200": "Total population - Norwegian",
-                "201": "Total population - Polish",
-                "202": "Total population - Portuguese",
-                "203": "Total population - Russian",
-                "204": "Total population - Scotch-Irish",
-                "205": "Total population - Scottish",
-                "206": "Total population - Slovak",
-                "207": "Total population - Subsaharan African",
-                "208": "Total population - Swedish",
-                "209": "Total population - Swiss",
-                "210": "Total population - Ukrainian",
-                "211": "Total population - Welsh",
-                "212": "Total population - West Indian (excluding Hispanic origin groups)"
-            }
-        }
-    },
-    "2016": {
-        "HC": {
-            "01": "Estimate",
-            "03": "Percent"
-        },
-        "VC": {
-            "HOUSEHOLDS BY TYPE": {
-                "03": "Total households",
-                "04": "Total households - Family households (families)",
-                "05": "Total households - Family households (families) - With own children of the householder under 18 years",
-                "06": "Total households - Family households (families) - Married-couple family",
-                "07": "Total households - Family households (families) - Married-couple family - With own children of the householder under 18 years",
-                "08": "Total households - Family households (families) - Male householder, no wife present, family",
-                "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children of the householder under 18 years",
-                "10": "Total households - Family households (families) - Female householder, no husband present, family",
-                "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children of the householder under 18 years",
-                "12": "Total households - Nonfamily households",
-                "13": "Total households - Nonfamily households - Householder living alone",
-                "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
-                "17": "Households with one or more people under 18 years",
-                "18": "Households with one or more people 65 years and over",
-                "21": "Average household size",
-                "22": "Average family size"
-            },
-            "RELATIONSHIP": {
-                "26": "Population in households",
-                "27": "Population in households - Householder",
-                "28": "Population in households - Spouse",
-                "29": "Population in households - Child",
-                "30": "Population in households - Other relatives",
-                "31": "Population in households - Nonrelatives",
-                "32": "Population in households - Nonrelatives - Unmarried partner"
-            },
-            "MARITAL STATUS": {
-                "36": "Males 15 years and over",
-                "37": "Males 15 years and over - Never married",
-                "38": "Males 15 years and over - Now married, except separated",
-                "39": "Males 15 years and over - Separated",
-                "40": "Males 15 years and over - Widowed",
-                "41": "Males 15 years and over - Divorced",
-                "43": "Females 15 years and over",
-                "44": "Females 15 years and over - Never married",
-                "45": "Females 15 years and over - Now married, except separated",
-                "46": "Females 15 years and over - Separated",
-                "47": "Females 15 years and over - Widowed",
-                "48": "Females 15 years and over - Divorced"
-            },
-            "FERTILITY": {
-                "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
-                "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
-                "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
-                "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
-                "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
-                "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
-                "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
-            },
-            "GRANDPARENTS": {
-                "62": "Number of grandparents living with own grandchildren under 18 years",
-                "63": "Number of grandparents living with own grandchildren under 18 years - Grandparents responsible for grandchildren",
-                "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
-                "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
-                "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
-                "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
-                "70": "Number of grandparents responsible for own grandchildren under 18 years",
-                "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
-                "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
-            },
-            "SCHOOL ENROLLMENT": {
-                "76": "Population 3 years and over enrolled in school",
-                "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
-                "78": "Population 3 years and over enrolled in school - Kindergarten",
-                "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
-                "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
-                "81": "Population 3 years and over enrolled in school - College or graduate school"
-            },
-            "EDUCATIONAL ATTAINMENT": {
-                "85": "Population 25 years and over",
-                "86": "Population 25 years and over - Less than 9th grade",
-                "87": "Population 25 years and over - 9th to 12th grade, no diploma",
-                "88": "Population 25 years and over - High school graduate (includes equivalency)",
-                "89": "Population 25 years and over - Some college, no degree",
-                "90": "Population 25 years and over - Associate's degree",
-                "91": "Population 25 years and over - Bachelor's degree",
-                "92": "Population 25 years and over - Graduate or professional degree",
-                "95": "Percent high school graduate or higher",
-                "96": "Percent bachelor's degree or higher"
-            },
-            "VETERAN STATUS": {
-                "100": "Civilian population 18 years and over",
-                "101": "Civilian population 18 years and over - Civilian veterans"
-            },
-            "DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION": {
-                "105": "Total Civilian Noninstitutionalized Population",
-                "106": "Total Civilian Noninstitutionalized Population - With a disability",
-                "108": "Under 18 years",
-                "109": "Under 18 years - With a disability",
-                "111": "18 to 64 years",
-                "112": "18 to 64 years - With a disability",
-                "114": "65 years and over",
-                "115": "65 years and over - With a disability"
-            },
-            "RESIDENCE 1 YEAR AGO": {
-                "119": "Population 1 year and over",
-                "120": "Population 1 year and over - Same house",
-                "121": "Population 1 year and over - Different house in the U.S.",
-                "122": "Population 1 year and over - Different house in the U.S. - Same county",
-                "123": "Population 1 year and over - Different house in the U.S. - Different county",
-                "124": "Population 1 year and over - Different house in the U.S. - Different county - Same state",
-                "125": "Population 1 year and over - Different house in the U.S. - Different county - Different state",
-                "126": "Population 1 year and over - Abroad"
-            },
-            "PLACE OF BIRTH": {
-                "130": "Total population",
-                "131": "Total population - Native",
-                "132": "Total population - Native - Born in United States",
-                "133": "Total population - Native - Born in United States - State of residence",
-                "134": "Total population - Native - Born in United States - Different state",
-                "135": "Total population - Native - Born in Puerto Rico, U.S. Island areas, or born abroad to American parent(s)",
-                "136": "Total population - Foreign born"
-            },
-            "U.S. CITIZENSHIP STATUS": {
-                "140": "Foreign-born population",
-                "141": "Foreign-born population - Naturalized U.S. citizen",
-                "142": "Foreign-born population - Not a U.S. citizen"
-            },
-            "YEAR OF ENTRY": {
-                "146": "Population born outside the United States",
-                "149": "Native",
-                "150": "Native - Entered 2010 or later",
-                "151": "Native - Entered before 2010",
-                "154": "Foreign born",
-                "155": "Foreign born - Entered 2010 or later",
-                "156": "Foreign born - Entered before 2010"
-            },
-            "WORLD REGION OF BIRTH OF FOREIGN BORN": {
-                "160": "Foreign-born population, excluding population born at sea",
-                "161": "Foreign-born population, excluding population born at sea - Europe",
-                "162": "Foreign-born population, excluding population born at sea - Asia",
-                "163": "Foreign-born population, excluding population born at sea - Africa",
-                "164": "Foreign-born population, excluding population born at sea - Oceania",
-                "165": "Foreign-born population, excluding population born at sea - Latin America",
-                "166": "Foreign-born population, excluding population born at sea - Northern America"
-            },
-            "LANGUAGE SPOKEN AT HOME": {
-                "170": "Population 5 years and over",
-                "171": "Population 5 years and over - English only",
-                "172": "Population 5 years and over - Language other than English",
-                "173": "Population 5 years and over - Language other than English - Speak English less than \"very well\"",
-                "174": "Population 5 years and over - Spanish",
-                "175": "Population 5 years and over - Spanish - Speak English less than \"very well\"",
-                "176": "Population 5 years and over - Other Indo-European languages",
-                "177": "Population 5 years and over - Other Indo-European languages - Speak English less than \"very well\"",
-                "178": "Population 5 years and over - Asian and Pacific Islander languages",
-                "179": "Population 5 years and over - Asian and Pacific Islander languages - Speak English less than \"very well\"",
-                "180": "Population 5 years and over - Other languages",
-                "181": "Population 5 years and over - Other languages - Speak English less than \"very well\""
-            },
-            "ANCESTRY": {
-                "185": "Total population",
-                "186": "Total population - American",
-                "187": "Total population - Arab",
-                "188": "Total population - Czech",
-                "189": "Total population - Danish",
-                "190": "Total population - Dutch",
-                "191": "Total population - English",
-                "192": "Total population - French (except Basque)",
-                "193": "Total population - French Canadian",
-                "194": "Total population - German",
-                "195": "Total population - Greek",
-                "196": "Total population - Hungarian",
-                "197": "Total population - Irish",
-                "198": "Total population - Italian",
-                "199": "Total population - Lithuanian",
-                "200": "Total population - Norwegian",
-                "201": "Total population - Polish",
-                "202": "Total population - Portuguese",
-                "203": "Total population - Russian",
-                "204": "Total population - Scotch-Irish",
-                "205": "Total population - Scottish",
-                "206": "Total population - Slovak",
-                "207": "Total population - Subsaharan African",
-                "208": "Total population - Swedish",
-                "209": "Total population - Swiss",
-                "210": "Total population - Ukrainian",
-                "211": "Total population - Welsh",
-                "212": "Total population - West Indian (excluding Hispanic origin groups)"
-            }
-        }
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Family households (families)",
+        "05": "Family households (families) - With own children under 18 years",
+        "06": "Family households (families) - Married-couple family",
+        "07": "Family households (families) - Married-couple family - With own children under 18 years",
+        "08": "Family households (families) - Male householder, no wife present, family",
+        "09": "Family households (families) - Male householder, no wife present, family - With own children under 18 years",
+        "10": "Family households (families) - Female householder, no husband present, family",
+        "11": "Family households (families) - Female householder, no husband present, family - With own children under 18 years",
+        "12": "Nonfamily households",
+        "13": "Nonfamily households - Householder living alone",
+        "14": "Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "20": "Average household size",
+        "21": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "25": "Population in households",
+        "26": "Householder",
+        "27": "Spouse",
+        "28": "Child",
+        "29": "Other relatives",
+        "30": "Nonrelatives",
+        "31": "Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "35": "Males 15 years and over",
+        "36": "Never married",
+        "37": "Now married, except separated",
+        "38": "Separated",
+        "39": "Widowed",
+        "40": "Divorced",
+        "42": "Females 15 years and over",
+        "43": "Never married",
+        "44": "Now married, except separated",
+        "45": "Separated",
+        "46": "Widowed",
+        "47": "Divorced"
+      },
+      "FERTILITY": {
+        "51": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "52": "Unmarried women (widowed, divorced, and never married)",
+        "53": "Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "54": "Per 1,000 women 15 to 50 years old",
+        "55": "Per 1,000 women 15 to 50 years old - Per 1,000 women 15 to 19 years old",
+        "56": "Per 1,000 women 15 to 50 years old - Per 1,000 women 20 to 34 years old",
+        "57": "Per 1,000 women 15 to 50 years old - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "61": "Number of grandparents living with own grandchildren under 18 years",
+        "62": "Responsible for grandchildren",
+        "64": "Responsible for grandchildren - Years responsible for grandchildren - Less than 1 year",
+        "65": "Responsible for grandchildren - Years responsible for grandchildren - 1 or 2 years",
+        "66": "Responsible for grandchildren - Years responsible for grandchildren - 3 or 4 years",
+        "67": "Responsible for grandchildren - Years responsible for grandchildren - 5 or more years",
+        "69": "Number of grandparents responsible for own grandchildren under 18 years",
+        "70": "Who are female",
+        "71": "Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Nursery school, preschool",
+        "78": "Kindergarten",
+        "79": "Elementary school (grades 1-8)",
+        "80": "High school (grades 9-12)",
+        "81": "College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Less than 9th grade",
+        "87": "9th to 12th grade, no diploma",
+        "88": "High school graduate (includes equivalency)",
+        "89": "Some college, no degree",
+        "90": "Associate's degree",
+        "91": "Bachelor's degree",
+        "92": "Graduate or professional degree",
+        "93": "9th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
     }
+  },
+  "2011": {
+    "HC": {
+      "03": "Percent"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Family households (families)",
+        "05": "Family households (families) - With own children under 18 years",
+        "06": "Family households (families) - Married-couple family",
+        "07": "Family households (families) - Married-couple family - With own children under 18 years",
+        "08": "Family households (families) - Male householder, no wife present, family",
+        "09": "Family households (families) - Male householder, no wife present, family - With own children under 18 years",
+        "10": "Family households (families) - Female householder, no husband present, family",
+        "11": "Family households (families) - Female householder, no husband present, family - With own children under 18 years",
+        "12": "Nonfamily households",
+        "13": "Nonfamily households - Householder living alone",
+        "14": "Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "20": "Average household size",
+        "21": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "25": "Population in households",
+        "26": "Householder",
+        "27": "Spouse",
+        "28": "Child",
+        "29": "Other relatives",
+        "30": "Nonrelatives",
+        "31": "Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "35": "Males 15 years and over",
+        "36": "Never married",
+        "37": "Now married, except separated",
+        "38": "Separated",
+        "39": "Widowed",
+        "40": "Divorced",
+        "42": "Females 15 years and over",
+        "43": "Never married",
+        "44": "Now married, except separated",
+        "45": "Separated",
+        "46": "Widowed",
+        "47": "Divorced"
+      },
+      "FERTILITY": {
+        "51": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "52": "Unmarried women (widowed, divorced, and never married)",
+        "53": "Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "54": "Per 1,000 women 15 to 50 years old",
+        "55": "Per 1,000 women 15 to 50 years old - Per 1,000 women 15 to 19 years old",
+        "56": "Per 1,000 women 15 to 50 years old - Per 1,000 women 20 to 34 years old",
+        "57": "Per 1,000 women 15 to 50 years old - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "61": "Number of grandparents living with own grandchildren under 18 years",
+        "62": "Responsible for grandchildren",
+        "64": "Responsible for grandchildren - Years responsible for grandchildren - Less than 1 year",
+        "65": "Responsible for grandchildren - Years responsible for grandchildren - 1 or 2 years",
+        "66": "Responsible for grandchildren - Years responsible for grandchildren - 3 or 4 years",
+        "67": "Responsible for grandchildren - Years responsible for grandchildren - 5 or more years",
+        "69": "Number of grandparents responsible for own grandchildren under 18 years",
+        "70": "Who are female",
+        "71": "Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Nursery school, preschool",
+        "78": "Kindergarten",
+        "79": "Elementary school (grades 1-8)",
+        "80": "High school (grades 9-12)",
+        "81": "College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Less than 9th grade",
+        "87": "9th to 12th grade, no diploma",
+        "88": "High school graduate (includes equivalency)",
+        "89": "Some college, no degree",
+        "90": "Associate's degree",
+        "91": "Bachelor's degree",
+        "92": "Graduate or professional degree",
+        "93": "9th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  },
+  "2012": {
+    "HC": {
+      "03": "Percent"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Family households (families)",
+        "05": "Family households (families) - With own children under 18 years",
+        "06": "Family households (families) - Married-couple family",
+        "07": "Family households (families) - Married-couple family - With own children under 18 years",
+        "08": "Family households (families) - Male householder, no wife present, family",
+        "09": "Family households (families) - Male householder, no wife present, family - With own children under 18 years",
+        "10": "Family households (families) - Female householder, no husband present, family",
+        "11": "Family households (families) - Female householder, no husband present, family - With own children under 18 years",
+        "12": "Nonfamily households",
+        "13": "Nonfamily households - Householder living alone",
+        "14": "Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "20": "Average household size",
+        "21": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "25": "Population in households",
+        "26": "Householder",
+        "27": "Spouse",
+        "28": "Child",
+        "29": "Other relatives",
+        "30": "Nonrelatives",
+        "31": "Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "35": "Males 15 years and over",
+        "36": "Never married",
+        "37": "Now married, except separated",
+        "38": "Separated",
+        "39": "Widowed",
+        "40": "Divorced",
+        "42": "Females 15 years and over",
+        "43": "Never married",
+        "44": "Now married, except separated",
+        "45": "Separated",
+        "46": "Widowed",
+        "47": "Divorced"
+      },
+      "FERTILITY": {
+        "51": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "52": "Unmarried women (widowed, divorced, and never married)",
+        "53": "Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "54": "Per 1,000 women 15 to 50 years old",
+        "55": "Per 1,000 women 15 to 50 years old - Per 1,000 women 15 to 19 years old",
+        "56": "Per 1,000 women 15 to 50 years old - Per 1,000 women 20 to 34 years old",
+        "57": "Per 1,000 women 15 to 50 years old - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "61": "Number of grandparents living with own grandchildren under 18 years",
+        "62": "Responsible for grandchildren",
+        "64": "Responsible for grandchildren - Years responsible for grandchildren - Less than 1 year",
+        "65": "Responsible for grandchildren - Years responsible for grandchildren - 1 or 2 years",
+        "66": "Responsible for grandchildren - Years responsible for grandchildren - 3 or 4 years",
+        "67": "Responsible for grandchildren - Years responsible for grandchildren - 5 or more years",
+        "69": "Number of grandparents responsible for own grandchildren under 18 years",
+        "70": "Who are female",
+        "71": "Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Nursery school, preschool",
+        "78": "Kindergarten",
+        "79": "Elementary school (grades 1-8)",
+        "80": "High school (grades 9-12)",
+        "81": "College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Less than 9th grade",
+        "87": "9th to 12th grade, no diploma",
+        "88": "High school graduate (includes equivalency)",
+        "89": "Some college, no degree",
+        "90": "Associate's degree",
+        "91": "Bachelor's degree",
+        "92": "Graduate or professional degree",
+        "93": "9th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  },
+  "2013": {
+    "HC": {
+      "03": "Percent"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Total households - Family households (families)",
+        "05": "Total households - Family households (families) - With own children under 18 years",
+        "06": "Total households - Family households (families) - Married-couple family",
+        "07": "Total households - Family households (families) - Married-couple family - With own children under 18 years",
+        "08": "Total households - Family households (families) - Male householder, no wife present, family",
+        "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children under 18 years",
+        "10": "Total households - Family households (families) - Female householder, no husband present, family",
+        "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children under 18 years",
+        "12": "Total households - Nonfamily households",
+        "13": "Total households - Nonfamily households - Householder living alone",
+        "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "21": "Average household size",
+        "22": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "26": "Population in households",
+        "27": "Population in households - Householder",
+        "28": "Population in households - Spouse",
+        "29": "Population in households - Child",
+        "30": "Population in households - Other relatives",
+        "31": "Population in households - Nonrelatives",
+        "32": "Population in households - Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "36": "Males 15 years and over",
+        "37": "Males 15 years and over - Never married",
+        "38": "Males 15 years and over - Now married, except separated",
+        "39": "Males 15 years and over - Separated",
+        "40": "Males 15 years and over - Widowed",
+        "41": "Males 15 years and over - Divorced",
+        "43": "Females 15 years and over",
+        "44": "Females 15 years and over - Never married",
+        "45": "Females 15 years and over - Now married, except separated",
+        "46": "Females 15 years and over - Separated",
+        "47": "Females 15 years and over - Widowed",
+        "48": "Females 15 years and over - Divorced"
+      },
+      "FERTILITY": {
+        "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
+        "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
+        "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
+        "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
+        "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "62": "Number of grandparents living with own grandchildren under 18 years",
+        "63": "Number of grandparents living with own grandchildren under 18 years - Responsible for grandchildren",
+        "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
+        "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
+        "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
+        "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
+        "70": "Number of grandparents responsible for own grandchildren under 18 years",
+        "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
+        "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
+        "78": "Population 3 years and over enrolled in school - Kindergarten",
+        "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
+        "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
+        "81": "Population 3 years and over enrolled in school - College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Population 25 years and over - Less than 9th grade",
+        "87": "Population 25 years and over - 9th to 12th grade, no diploma",
+        "88": "Population 25 years and over - High school graduate (includes equivalency)",
+        "89": "Population 25 years and over - Some college, no degree",
+        "90": "Population 25 years and over - Associate's degree",
+        "91": "Population 25 years and over - Bachelor's degree",
+        "92": "Population 25 years and over - Graduate or professional degree",
+        "93": "9th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  },
+  "2014": {
+    "HC": {
+      "03": "Percent"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Total households - Family households (families)",
+        "05": "Total households - Family households (families) - With own children under 18 years",
+        "06": "Total households - Family households (families) - Married-couple family",
+        "07": "Total households - Family households (families) - Married-couple family - With own children under 18 years",
+        "08": "Total households - Family households (families) - Male householder, no wife present, family",
+        "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children under 18 years",
+        "10": "Total households - Family households (families) - Female householder, no husband present, family",
+        "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children under 18 years",
+        "12": "Total households - Nonfamily households",
+        "13": "Total households - Nonfamily households - Householder living alone",
+        "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "21": "Average household size",
+        "22": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "26": "Population in households",
+        "27": "Population in households - Householder",
+        "28": "Population in households - Spouse",
+        "29": "Population in households - Child",
+        "30": "Population in households - Other relatives",
+        "31": "Population in households - Nonrelatives",
+        "32": "Population in households - Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "36": "Males 15 years and over",
+        "37": "Males 15 years and over - Never married",
+        "38": "Males 15 years and over - Now married, except separated",
+        "39": "Males 15 years and over - Separated",
+        "40": "Males 15 years and over - Widowed",
+        "41": "Males 15 years and over - Divorced",
+        "43": "Females 15 years and over",
+        "44": "Females 15 years and over - Never married",
+        "45": "Females 15 years and over - Now married, except separated",
+        "46": "Females 15 years and over - Separated",
+        "47": "Females 15 years and over - Widowed",
+        "48": "Females 15 years and over - Divorced"
+      },
+      "FERTILITY": {
+        "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
+        "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
+        "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
+        "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
+        "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "62": "Number of grandparents living with own grandchildren under 18 years",
+        "63": "Number of grandparents living with own grandchildren under 18 years - Responsible for grandchildren",
+        "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
+        "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
+        "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
+        "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
+        "70": "Number of grandparents responsible for own grandchildren under 18 years",
+        "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
+        "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
+        "78": "Population 3 years and over enrolled in school - Kindergarten",
+        "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
+        "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
+        "81": "Population 3 years and over enrolled in school - College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Population 25 years and over - Less than 9th grade",
+        "87": "Population 25 years and over - 9th to 12th grade, no diploma",
+        "88": "Population 25 years and over - High school graduate (includes equivalency)",
+        "89": "Population 25 years and over - Some college, no degree",
+        "90": "Population 25 years and over - Associate's degree",
+        "91": "Population 25 years and over - Bachelor's degree",
+        "92": "Population 25 years and over - Graduate or professional degree",
+        "93": "9th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  },
+  "2015": {
+    "HC": {
+      "03": "Percent"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Total households - Family households (families)",
+        "05": "Total households - Family households (families) - With own children of the householder under 18 years",
+        "06": "Total households - Family households (families) - Married-couple family",
+        "07": "Total households - Family households (families) - Married-couple family - With own children of the householder under 18 years",
+        "08": "Total households - Family households (families) - Male householder, no wife present, family",
+        "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children of the householder under 18 years",
+        "10": "Total households - Family households (families) - Female householder, no husband present, family",
+        "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children of the householder under 18 years",
+        "12": "Total households - Nonfamily households",
+        "13": "Total households - Nonfamily households - Householder living alone",
+        "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "21": "Average household size",
+        "22": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "26": "Population in households",
+        "27": "Population in households - Householder",
+        "28": "Population in households - Spouse",
+        "29": "Population in households - Child",
+        "30": "Population in households - Other relatives",
+        "31": "Population in households - Nonrelatives",
+        "32": "Population in households - Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "36": "Males 15 years and over",
+        "37": "Males 15 years and over - Never married",
+        "38": "Males 15 years and over - Now married, except separated",
+        "39": "Males 15 years and over - Separated",
+        "40": "Males 15 years and over - Widowed",
+        "41": "Males 15 years and over - Divorced",
+        "43": "Females 15 years and over",
+        "44": "Females 15 years and over - Never married",
+        "45": "Females 15 years and over - Now married, except separated",
+        "46": "Females 15 years and over - Separated",
+        "47": "Females 15 years and over - Widowed",
+        "48": "Females 15 years and over - Divorced"
+      },
+      "FERTILITY": {
+        "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
+        "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
+        "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
+        "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
+        "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "62": "Number of grandparents living with own grandchildren under 18 years",
+        "63": "Number of grandparents living with own grandchildren under 18 years - Grandparents responsible for grandchildren",
+        "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
+        "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
+        "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
+        "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
+        "70": "Number of grandparents responsible for own grandchildren under 18 years",
+        "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
+        "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
+        "78": "Population 3 years and over enrolled in school - Kindergarten",
+        "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
+        "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
+        "81": "Population 3 years and over enrolled in school - College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Population 25 years and over - Less than 9th grade",
+        "87": "Population 25 years and over - 9th to 12th grade, no diploma",
+        "88": "Population 25 years and over - High school graduate (includes equivalency)",
+        "89": "Population 25 years and over - Some college, no degree",
+        "90": "Population 25 years and over - Associate's degree",
+        "91": "Population 25 years and over - Bachelor's degree",
+        "92": "Population 25 years and over - Graduate or professional degree",
+        "93": "9th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  },
+  "2016": {
+    "HC": {
+      "03": "Percent"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Total households - Family households (families)",
+        "05": "Total households - Family households (families) - With own children of the householder under 18 years",
+        "06": "Total households - Family households (families) - Married-couple family",
+        "07": "Total households - Family households (families) - Married-couple family - With own children of the householder under 18 years",
+        "08": "Total households - Family households (families) - Male householder, no wife present, family",
+        "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children of the householder under 18 years",
+        "10": "Total households - Family households (families) - Female householder, no husband present, family",
+        "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children of the householder under 18 years",
+        "12": "Total households - Nonfamily households",
+        "13": "Total households - Nonfamily households - Householder living alone",
+        "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "21": "Average household size",
+        "22": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "26": "Population in households",
+        "27": "Population in households - Householder",
+        "28": "Population in households - Spouse",
+        "29": "Population in households - Child",
+        "30": "Population in households - Other relatives",
+        "31": "Population in households - Nonrelatives",
+        "32": "Population in households - Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "36": "Males 15 years and over",
+        "37": "Males 15 years and over - Never married",
+        "38": "Males 15 years and over - Now married, except separated",
+        "39": "Males 15 years and over - Separated",
+        "40": "Males 15 years and over - Widowed",
+        "41": "Males 15 years and over - Divorced",
+        "43": "Females 15 years and over",
+        "44": "Females 15 years and over - Never married",
+        "45": "Females 15 years and over - Now married, except separated",
+        "46": "Females 15 years and over - Separated",
+        "47": "Females 15 years and over - Widowed",
+        "48": "Females 15 years and over - Divorced"
+      },
+      "FERTILITY": {
+        "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
+        "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
+        "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
+        "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
+        "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "62": "Number of grandparents living with own grandchildren under 18 years",
+        "63": "Number of grandparents living with own grandchildren under 18 years - Grandparents responsible for grandchildren",
+        "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
+        "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
+        "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
+        "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
+        "70": "Number of grandparents responsible for own grandchildren under 18 years",
+        "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
+        "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
+        "78": "Population 3 years and over enrolled in school - Kindergarten",
+        "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
+        "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
+        "81": "Population 3 years and over enrolled in school - College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Population 25 years and over - Less than 9th grade",
+        "87": "Population 25 years and over - 9th to 12th grade, no diploma",
+        "88": "Population 25 years and over - High school graduate (includes equivalency)",
+        "89": "Population 25 years and over - Some college, no degree",
+        "90": "Population 25 years and over - Associate's degree",
+        "91": "Population 25 years and over - Bachelor's degree",
+        "92": "Population 25 years and over - Graduate or professional degree",
+        "93": "9th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  }
 }

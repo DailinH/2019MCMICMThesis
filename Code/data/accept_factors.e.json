@@ -1,0 +1,625 @@
+{
+  "2010": {
+    "HC": {
+      "01": "Estimate"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Family households (families)",
+        "05": "Family households (families) - With own children under 18 years",
+        "06": "Family households (families) - Married-couple family",
+        "07": "Family households (families) - Married-couple family - With own children under 18 years",
+        "08": "Family households (families) - Male householder, no wife present, family",
+        "09": "Family households (families) - Male householder, no wife present, family - With own children under 18 years",
+        "10": "Family households (families) - Female householder, no husband present, family",
+        "11": "Family households (families) - Female householder, no husband present, family - With own children under 18 years",
+        "12": "Nonfamily households",
+        "13": "Nonfamily households - Householder living alone",
+        "14": "Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "20": "Average household size",
+        "21": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "25": "Population in households",
+        "26": "Householder",
+        "27": "Spouse",
+        "28": "Child",
+        "29": "Other relatives",
+        "30": "Nonrelatives",
+        "31": "Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "35": "Males 15 years and over",
+        "36": "Never married",
+        "37": "Now married, except separated",
+        "38": "Separated",
+        "39": "Widowed",
+        "40": "Divorced",
+        "42": "Females 15 years and over",
+        "43": "Never married",
+        "44": "Now married, except separated",
+        "45": "Separated",
+        "46": "Widowed",
+        "47": "Divorced"
+      },
+      "FERTILITY": {
+        "51": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "52": "Unmarried women (widowed, divorced, and never married)",
+        "53": "Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "54": "Per 1,000 women 15 to 50 years old",
+        "55": "Per 1,000 women 15 to 50 years old - Per 1,000 women 15 to 19 years old",
+        "56": "Per 1,000 women 15 to 50 years old - Per 1,000 women 20 to 34 years old",
+        "57": "Per 1,000 women 15 to 50 years old - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "61": "Number of grandparents living with own grandchildren under 18 years",
+        "62": "Responsible for grandchildren",
+        "64": "Responsible for grandchildren - Years responsible for grandchildren - Less than 1 year",
+        "65": "Responsible for grandchildren - Years responsible for grandchildren - 1 or 2 years",
+        "66": "Responsible for grandchildren - Years responsible for grandchildren - 3 or 4 years",
+        "67": "Responsible for grandchildren - Years responsible for grandchildren - 5 or more years",
+        "69": "Number of grandparents responsible for own grandchildren under 18 years",
+        "70": "Who are female",
+        "71": "Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Nursery school, preschool",
+        "78": "Kindergarten",
+        "79": "Elementary school (grades 1-8)",
+        "80": "High school (grades 9-12)",
+        "81": "College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Less than 9th grade",
+        "87": "9th to 12th grade, no diploma",
+        "88": "High school graduate (includes equivalency)",
+        "89": "Some college, no degree",
+        "90": "Associate's degree",
+        "91": "Bachelor's degree",
+        "92": "Graduate or professional degree",
+        "93": "12th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  },
+  "2011": {
+    "HC": {
+      "01": "Estimate"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Family households (families)",
+        "05": "Family households (families) - With own children under 18 years",
+        "06": "Family households (families) - Married-couple family",
+        "07": "Family households (families) - Married-couple family - With own children under 18 years",
+        "08": "Family households (families) - Male householder, no wife present, family",
+        "09": "Family households (families) - Male householder, no wife present, family - With own children under 18 years",
+        "10": "Family households (families) - Female householder, no husband present, family",
+        "11": "Family households (families) - Female householder, no husband present, family - With own children under 18 years",
+        "12": "Nonfamily households",
+        "13": "Nonfamily households - Householder living alone",
+        "14": "Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "20": "Average household size",
+        "21": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "25": "Population in households",
+        "26": "Householder",
+        "27": "Spouse",
+        "28": "Child",
+        "29": "Other relatives",
+        "30": "Nonrelatives",
+        "31": "Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "35": "Males 15 years and over",
+        "36": "Never married",
+        "37": "Now married, except separated",
+        "38": "Separated",
+        "39": "Widowed",
+        "40": "Divorced",
+        "42": "Females 15 years and over",
+        "43": "Never married",
+        "44": "Now married, except separated",
+        "45": "Separated",
+        "46": "Widowed",
+        "47": "Divorced"
+      },
+      "FERTILITY": {
+        "51": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "52": "Unmarried women (widowed, divorced, and never married)",
+        "53": "Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "54": "Per 1,000 women 15 to 50 years old",
+        "55": "Per 1,000 women 15 to 50 years old - Per 1,000 women 15 to 19 years old",
+        "56": "Per 1,000 women 15 to 50 years old - Per 1,000 women 20 to 34 years old",
+        "57": "Per 1,000 women 15 to 50 years old - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "61": "Number of grandparents living with own grandchildren under 18 years",
+        "62": "Responsible for grandchildren",
+        "64": "Responsible for grandchildren - Years responsible for grandchildren - Less than 1 year",
+        "65": "Responsible for grandchildren - Years responsible for grandchildren - 1 or 2 years",
+        "66": "Responsible for grandchildren - Years responsible for grandchildren - 3 or 4 years",
+        "67": "Responsible for grandchildren - Years responsible for grandchildren - 5 or more years",
+        "69": "Number of grandparents responsible for own grandchildren under 18 years",
+        "70": "Who are female",
+        "71": "Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Nursery school, preschool",
+        "78": "Kindergarten",
+        "79": "Elementary school (grades 1-8)",
+        "80": "High school (grades 9-12)",
+        "81": "College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Less than 9th grade",
+        "87": "9th to 12th grade, no diploma",
+        "88": "High school graduate (includes equivalency)",
+        "89": "Some college, no degree",
+        "90": "Associate's degree",
+        "91": "Bachelor's degree",
+        "92": "Graduate or professional degree",
+        "93": "12th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  },
+  "2012": {
+    "HC": {
+      "01": "Estimate"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Family households (families)",
+        "05": "Family households (families) - With own children under 18 years",
+        "06": "Family households (families) - Married-couple family",
+        "07": "Family households (families) - Married-couple family - With own children under 18 years",
+        "08": "Family households (families) - Male householder, no wife present, family",
+        "09": "Family households (families) - Male householder, no wife present, family - With own children under 18 years",
+        "10": "Family households (families) - Female householder, no husband present, family",
+        "11": "Family households (families) - Female householder, no husband present, family - With own children under 18 years",
+        "12": "Nonfamily households",
+        "13": "Nonfamily households - Householder living alone",
+        "14": "Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "20": "Average household size",
+        "21": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "25": "Population in households",
+        "26": "Householder",
+        "27": "Spouse",
+        "28": "Child",
+        "29": "Other relatives",
+        "30": "Nonrelatives",
+        "31": "Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "35": "Males 15 years and over",
+        "36": "Never married",
+        "37": "Now married, except separated",
+        "38": "Separated",
+        "39": "Widowed",
+        "40": "Divorced",
+        "42": "Females 15 years and over",
+        "43": "Never married",
+        "44": "Now married, except separated",
+        "45": "Separated",
+        "46": "Widowed",
+        "47": "Divorced"
+      },
+      "FERTILITY": {
+        "51": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "52": "Unmarried women (widowed, divorced, and never married)",
+        "53": "Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "54": "Per 1,000 women 15 to 50 years old",
+        "55": "Per 1,000 women 15 to 50 years old - Per 1,000 women 15 to 19 years old",
+        "56": "Per 1,000 women 15 to 50 years old - Per 1,000 women 20 to 34 years old",
+        "57": "Per 1,000 women 15 to 50 years old - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "61": "Number of grandparents living with own grandchildren under 18 years",
+        "62": "Responsible for grandchildren",
+        "64": "Responsible for grandchildren - Years responsible for grandchildren - Less than 1 year",
+        "65": "Responsible for grandchildren - Years responsible for grandchildren - 1 or 2 years",
+        "66": "Responsible for grandchildren - Years responsible for grandchildren - 3 or 4 years",
+        "67": "Responsible for grandchildren - Years responsible for grandchildren - 5 or more years",
+        "69": "Number of grandparents responsible for own grandchildren under 18 years",
+        "70": "Who are female",
+        "71": "Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Nursery school, preschool",
+        "78": "Kindergarten",
+        "79": "Elementary school (grades 1-8)",
+        "80": "High school (grades 9-12)",
+        "81": "College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Less than 9th grade",
+        "87": "9th to 12th grade, no diploma",
+        "88": "High school graduate (includes equivalency)",
+        "89": "Some college, no degree",
+        "90": "Associate's degree",
+        "91": "Bachelor's degree",
+        "92": "Graduate or professional degree",
+        "93": "12th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  },
+  "2013": {
+    "HC": {
+      "01": "Estimate"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Total households - Family households (families)",
+        "05": "Total households - Family households (families) - With own children under 18 years",
+        "06": "Total households - Family households (families) - Married-couple family",
+        "07": "Total households - Family households (families) - Married-couple family - With own children under 18 years",
+        "08": "Total households - Family households (families) - Male householder, no wife present, family",
+        "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children under 18 years",
+        "10": "Total households - Family households (families) - Female householder, no husband present, family",
+        "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children under 18 years",
+        "12": "Total households - Nonfamily households",
+        "13": "Total households - Nonfamily households - Householder living alone",
+        "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "21": "Average household size",
+        "22": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "26": "Population in households",
+        "27": "Population in households - Householder",
+        "28": "Population in households - Spouse",
+        "29": "Population in households - Child",
+        "30": "Population in households - Other relatives",
+        "31": "Population in households - Nonrelatives",
+        "32": "Population in households - Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "36": "Males 15 years and over",
+        "37": "Males 15 years and over - Never married",
+        "38": "Males 15 years and over - Now married, except separated",
+        "39": "Males 15 years and over - Separated",
+        "40": "Males 15 years and over - Widowed",
+        "41": "Males 15 years and over - Divorced",
+        "43": "Females 15 years and over",
+        "44": "Females 15 years and over - Never married",
+        "45": "Females 15 years and over - Now married, except separated",
+        "46": "Females 15 years and over - Separated",
+        "47": "Females 15 years and over - Widowed",
+        "48": "Females 15 years and over - Divorced"
+      },
+      "FERTILITY": {
+        "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
+        "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
+        "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
+        "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
+        "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "62": "Number of grandparents living with own grandchildren under 18 years",
+        "63": "Number of grandparents living with own grandchildren under 18 years - Responsible for grandchildren",
+        "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
+        "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
+        "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
+        "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
+        "70": "Number of grandparents responsible for own grandchildren under 18 years",
+        "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
+        "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
+        "78": "Population 3 years and over enrolled in school - Kindergarten",
+        "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
+        "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
+        "81": "Population 3 years and over enrolled in school - College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Population 25 years and over - Less than 9th grade",
+        "87": "Population 25 years and over - 9th to 12th grade, no diploma",
+        "88": "Population 25 years and over - High school graduate (includes equivalency)",
+        "89": "Population 25 years and over - Some college, no degree",
+        "90": "Population 25 years and over - Associate's degree",
+        "91": "Population 25 years and over - Bachelor's degree",
+        "92": "Population 25 years and over - Graduate or professional degree",
+        "93": "12th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  },
+  "2014": {
+    "HC": {
+      "01": "Estimate"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Total households - Family households (families)",
+        "05": "Total households - Family households (families) - With own children under 18 years",
+        "06": "Total households - Family households (families) - Married-couple family",
+        "07": "Total households - Family households (families) - Married-couple family - With own children under 18 years",
+        "08": "Total households - Family households (families) - Male householder, no wife present, family",
+        "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children under 18 years",
+        "10": "Total households - Family households (families) - Female householder, no husband present, family",
+        "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children under 18 years",
+        "12": "Total households - Nonfamily households",
+        "13": "Total households - Nonfamily households - Householder living alone",
+        "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "21": "Average household size",
+        "22": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "26": "Population in households",
+        "27": "Population in households - Householder",
+        "28": "Population in households - Spouse",
+        "29": "Population in households - Child",
+        "30": "Population in households - Other relatives",
+        "31": "Population in households - Nonrelatives",
+        "32": "Population in households - Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "36": "Males 15 years and over",
+        "37": "Males 15 years and over - Never married",
+        "38": "Males 15 years and over - Now married, except separated",
+        "39": "Males 15 years and over - Separated",
+        "40": "Males 15 years and over - Widowed",
+        "41": "Males 15 years and over - Divorced",
+        "43": "Females 15 years and over",
+        "44": "Females 15 years and over - Never married",
+        "45": "Females 15 years and over - Now married, except separated",
+        "46": "Females 15 years and over - Separated",
+        "47": "Females 15 years and over - Widowed",
+        "48": "Females 15 years and over - Divorced"
+      },
+      "FERTILITY": {
+        "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
+        "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
+        "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
+        "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
+        "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "62": "Number of grandparents living with own grandchildren under 18 years",
+        "63": "Number of grandparents living with own grandchildren under 18 years - Responsible for grandchildren",
+        "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
+        "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
+        "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
+        "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
+        "70": "Number of grandparents responsible for own grandchildren under 18 years",
+        "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
+        "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
+        "78": "Population 3 years and over enrolled in school - Kindergarten",
+        "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
+        "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
+        "81": "Population 3 years and over enrolled in school - College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Population 25 years and over - Less than 9th grade",
+        "87": "Population 25 years and over - 9th to 12th grade, no diploma",
+        "88": "Population 25 years and over - High school graduate (includes equivalency)",
+        "89": "Population 25 years and over - Some college, no degree",
+        "90": "Population 25 years and over - Associate's degree",
+        "91": "Population 25 years and over - Bachelor's degree",
+        "92": "Population 25 years and over - Graduate or professional degree",
+        "93": "12th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  },
+  "2015": {
+    "HC": {
+      "01": "Estimate"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Total households - Family households (families)",
+        "05": "Total households - Family households (families) - With own children of the householder under 18 years",
+        "06": "Total households - Family households (families) - Married-couple family",
+        "07": "Total households - Family households (families) - Married-couple family - With own children of the householder under 18 years",
+        "08": "Total households - Family households (families) - Male householder, no wife present, family",
+        "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children of the householder under 18 years",
+        "10": "Total households - Family households (families) - Female householder, no husband present, family",
+        "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children of the householder under 18 years",
+        "12": "Total households - Nonfamily households",
+        "13": "Total households - Nonfamily households - Householder living alone",
+        "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "21": "Average household size",
+        "22": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "26": "Population in households",
+        "27": "Population in households - Householder",
+        "28": "Population in households - Spouse",
+        "29": "Population in households - Child",
+        "30": "Population in households - Other relatives",
+        "31": "Population in households - Nonrelatives",
+        "32": "Population in households - Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "36": "Males 15 years and over",
+        "37": "Males 15 years and over - Never married",
+        "38": "Males 15 years and over - Now married, except separated",
+        "39": "Males 15 years and over - Separated",
+        "40": "Males 15 years and over - Widowed",
+        "41": "Males 15 years and over - Divorced",
+        "43": "Females 15 years and over",
+        "44": "Females 15 years and over - Never married",
+        "45": "Females 15 years and over - Now married, except separated",
+        "46": "Females 15 years and over - Separated",
+        "47": "Females 15 years and over - Widowed",
+        "48": "Females 15 years and over - Divorced"
+      },
+      "FERTILITY": {
+        "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
+        "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
+        "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
+        "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
+        "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "62": "Number of grandparents living with own grandchildren under 18 years",
+        "63": "Number of grandparents living with own grandchildren under 18 years - Grandparents responsible for grandchildren",
+        "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
+        "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
+        "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
+        "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
+        "70": "Number of grandparents responsible for own grandchildren under 18 years",
+        "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
+        "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
+        "78": "Population 3 years and over enrolled in school - Kindergarten",
+        "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
+        "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
+        "81": "Population 3 years and over enrolled in school - College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Population 25 years and over - Less than 9th grade",
+        "87": "Population 25 years and over - 9th to 12th grade, no diploma",
+        "88": "Population 25 years and over - High school graduate (includes equivalency)",
+        "89": "Population 25 years and over - Some college, no degree",
+        "90": "Population 25 years and over - Associate's degree",
+        "91": "Population 25 years and over - Bachelor's degree",
+        "92": "Population 25 years and over - Graduate or professional degree",
+        "93": "12th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  },
+  "2016": {
+    "HC": {
+      "01": "Estimate"
+    },
+    "VC": {
+      "HOUSEHOLDS BY TYPE": {
+        "03": "Total households",
+        "04": "Total households - Family households (families)",
+        "05": "Total households - Family households (families) - With own children of the householder under 18 years",
+        "06": "Total households - Family households (families) - Married-couple family",
+        "07": "Total households - Family households (families) - Married-couple family - With own children of the householder under 18 years",
+        "08": "Total households - Family households (families) - Male householder, no wife present, family",
+        "09": "Total households - Family households (families) - Male householder, no wife present, family - With own children of the householder under 18 years",
+        "10": "Total households - Family households (families) - Female householder, no husband present, family",
+        "11": "Total households - Family households (families) - Female householder, no husband present, family - With own children of the householder under 18 years",
+        "12": "Total households - Nonfamily households",
+        "13": "Total households - Nonfamily households - Householder living alone",
+        "14": "Total households - Nonfamily households - Householder living alone - 65 years and over",
+        "17": "Households with one or more people under 18 years",
+        "18": "Households with one or more people 65 years and over",
+        "21": "Average household size",
+        "22": "Average family size"
+      },
+      "RELATIONSHIP": {
+        "26": "Population in households",
+        "27": "Population in households - Householder",
+        "28": "Population in households - Spouse",
+        "29": "Population in households - Child",
+        "30": "Population in households - Other relatives",
+        "31": "Population in households - Nonrelatives",
+        "32": "Population in households - Nonrelatives - Unmarried partner"
+      },
+      "MARITAL STATUS": {
+        "36": "Males 15 years and over",
+        "37": "Males 15 years and over - Never married",
+        "38": "Males 15 years and over - Now married, except separated",
+        "39": "Males 15 years and over - Separated",
+        "40": "Males 15 years and over - Widowed",
+        "41": "Males 15 years and over - Divorced",
+        "43": "Females 15 years and over",
+        "44": "Females 15 years and over - Never married",
+        "45": "Females 15 years and over - Now married, except separated",
+        "46": "Females 15 years and over - Separated",
+        "47": "Females 15 years and over - Widowed",
+        "48": "Females 15 years and over - Divorced"
+      },
+      "FERTILITY": {
+        "52": "Number of women 15 to 50 years old who had a birth in the past 12 months",
+        "53": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married)",
+        "54": "Number of women 15 to 50 years old who had a birth in the past 12 months - Unmarried women (widowed, divorced, and never married) - Per 1,000 unmarried women",
+        "55": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 50 years old",
+        "56": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 15 to 19 years old",
+        "57": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 20 to 34 years old",
+        "58": "Number of women 15 to 50 years old who had a birth in the past 12 months - Per 1,000 women 35 to 50 years old"
+      },
+      "GRANDPARENTS": {
+        "62": "Number of grandparents living with own grandchildren under 18 years",
+        "63": "Number of grandparents living with own grandchildren under 18 years - Grandparents responsible for grandchildren",
+        "65": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - Less than 1 year",
+        "66": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 1 or 2 years",
+        "67": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 3 or 4 years",
+        "68": "Number of grandparents living with own grandchildren under 18 years - Years responsible for grandchildren - 5 or more years",
+        "70": "Number of grandparents responsible for own grandchildren under 18 years",
+        "71": "Number of grandparents responsible for own grandchildren under 18 years - Who are female",
+        "72": "Number of grandparents responsible for own grandchildren under 18 years - Who are married"
+      },
+      "SCHOOL ENROLLMENT": {
+        "76": "Population 3 years and over enrolled in school",
+        "77": "Population 3 years and over enrolled in school - Nursery school, preschool",
+        "78": "Population 3 years and over enrolled in school - Kindergarten",
+        "79": "Population 3 years and over enrolled in school - Elementary school (grades 1-8)",
+        "80": "Population 3 years and over enrolled in school - High school (grades 9-12)",
+        "81": "Population 3 years and over enrolled in school - College or graduate school"
+      },
+      "EDUCATIONAL ATTAINMENT": {
+        "85": "Population 25 years and over",
+        "86": "Population 25 years and over - Less than 9th grade",
+        "87": "Population 25 years and over - 9th to 12th grade, no diploma",
+        "88": "Population 25 years and over - High school graduate (includes equivalency)",
+        "89": "Population 25 years and over - Some college, no degree",
+        "90": "Population 25 years and over - Associate's degree",
+        "91": "Population 25 years and over - Bachelor's degree",
+        "92": "Population 25 years and over - Graduate or professional degree",
+        "93": "12th or less, no diploma",
+        "95": "Percent high school graduate or higher",
+        "96": "Percent bachelor's degree or higher"
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@ import json
 import pandas as pd
 from pandas import ExcelWriter
 from pandas import ExcelFile
+from utils import InlineEncoder
 
 with open("./data/locations.json") as f:
     LOCATIONS = json.load(f)
@@ -24,6 +25,8 @@ for [year, state, county, fipsS, fipsC, fips, drug, count, countC, countS] in NF
 
     if not year in DATASET:
         DATASET[year] = {
+            "factors": [],
+            "weights": [],
             "states": {}
         }
 
@@ -50,7 +53,7 @@ for [year, state, county, fipsS, fipsC, fips, drug, count, countC, countS] in NF
 # --------------- ACS ---------------
 
 for yy in range(10, 16 + 1):
-    ASC_CSV = pd.read_csv(f"./data/raw/ACS_{yy}_5YR_DP02/ACS_{yy}_5YR_DP02_with_ann.csv")
+    ASC_CSV = pd.read_csv(f"./data/raw/ACS_{yy}_5YR_DP02_with_ann.csv")
     year = str(2000 + yy)
     metadata = { v:i for i, v in enumerate(ASC_CSV.columns)}
     accepts = ACCEPT_FACTORS[year]
@@ -60,6 +63,7 @@ for yy in range(10, 16 + 1):
             code = f"HC{hc}_VC{vc}"
             if code in metadata:
                 indices.append(metadata[code])
+                DATASET[year]["factors"].append(code)
     for entry in ASC_CSV.values[1:]:
         fips = str(entry[1])
         state = LOCATIONS[fips]["state"]
@@ -71,5 +75,6 @@ for yy in range(10, 16 + 1):
 
 # --------------- Save to json ---------------
 
-with open("./data/dataset.json", 'w') as f:
-    json.dump(DATASET, f, indent=2)
+if __name__ == "__main__":
+    with open("./data/dataset.json", 'w') as f:
+        json.dump(DATASET, f, indent=2, cls=InlineEncoder)
